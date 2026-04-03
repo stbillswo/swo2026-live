@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-03T15:13:04.313Z",
+  "timestamp": "2026-04-03T15:26:03.440Z",
   "teams": [
     {
       "id": "mnizpbguwgif",
@@ -1002,6 +1002,16 @@
           "assistId": "mnizpbgvp5dq",
           "homeScore": 2,
           "awayScore": 0
+        },
+        {
+          "id": "mnj22zong6y4",
+          "period": 2,
+          "time": "2:45",
+          "teamId": "mnizpbgvfdxk",
+          "scorerId": "mnizpbgvldff",
+          "assistId": "mnizpbgved2p",
+          "homeScore": 2,
+          "awayScore": 1
         }
       ],
       "penalties": [
@@ -1015,7 +1025,7 @@
           "code": "Holding"
         }
       ],
-      "finished": true
+      "finished": false
     },
     {
       "id": "mnizpq2kqkh2",
@@ -1189,7 +1199,7 @@
       "time": "10:15",
       "phase": "4. Viertelfinale",
       "group": null,
-      "homeTeamId": "mnizpbgv7ka9",
+      "homeTeamId": "mnizpbguwgif",
       "awayTeamId": "mnizpbgv2hdi",
       "homeLabel": null,
       "awayLabel": null,
@@ -1204,7 +1214,7 @@
       "time": "11:30",
       "phase": "3. Viertelfinale",
       "group": null,
-      "homeTeamId": "mnizpbguwgif",
+      "homeTeamId": "mnizpbgvkciz",
       "awayTeamId": "mnizpbgv8xse",
       "homeLabel": null,
       "awayLabel": null,
@@ -1220,7 +1230,7 @@
       "phase": "2. Viertelfinale",
       "group": null,
       "homeTeamId": "mnizpbgvoe78",
-      "awayTeamId": "mnizpbgvkciz",
+      "awayTeamId": "mnizpbgvfdxk",
       "homeLabel": null,
       "awayLabel": null,
       "goals": [],
@@ -1235,7 +1245,7 @@
       "phase": "1. Viertelfinale",
       "group": null,
       "homeTeamId": "mnizpbgvqgd6",
-      "awayTeamId": "mnizpbgvfdxk",
+      "awayTeamId": "mnizpbgv7ka9",
       "homeLabel": null,
       "awayLabel": null,
       "goals": [],
