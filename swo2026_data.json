@@ -1,0 +1,1366 @@
+{
+  "timestamp": "2026-04-03T15:13:04.313Z",
+  "teams": [
+    {
+      "id": "mnizpbguwgif",
+      "name": "Team Suisse",
+      "code": "SUI",
+      "group": "A"
+    },
+    {
+      "id": "mnizpbgvkciz",
+      "name": "USA Wheelchair Floorball",
+      "code": "USA",
+      "group": "A"
+    },
+    {
+      "id": "mnizpbgvqgd6",
+      "name": "Belgium GIDOS",
+      "code": "BEL",
+      "group": "B"
+    },
+    {
+      "id": "mnizpbgvfdxk",
+      "name": "Czech Republic",
+      "code": "CZE",
+      "group": "A"
+    },
+    {
+      "id": "mnizpbgvoe78",
+      "name": "The Netherlands",
+      "code": "NED",
+      "group": "B"
+    },
+    {
+      "id": "mnizpbgv7ka9",
+      "name": "Canada",
+      "code": "CAN",
+      "group": "A"
+    },
+    {
+      "id": "mnizpbgv8xse",
+      "name": "Sweden",
+      "code": "SWE",
+      "group": "B"
+    },
+    {
+      "id": "mnizpbgv2hdi",
+      "name": "France",
+      "code": "FRA",
+      "group": "B"
+    }
+  ],
+  "players": [
+    {
+      "id": "mnizpbgusb3l",
+      "no": "3",
+      "name": "Urs Kläger",
+      "teamId": "mnizpbguwgif",
+      "isStaff": false,
+      "role": "G",
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgumpoe",
+      "no": "5",
+      "name": "Mario Grab",
+      "teamId": "mnizpbguwgif",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbguljje",
+      "no": "7",
+      "name": "Ken Gruber",
+      "teamId": "mnizpbguwgif",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbguphfz",
+      "no": "9",
+      "name": "Fabian Schmid",
+      "teamId": "mnizpbguwgif",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbguaw9l",
+      "no": "10",
+      "name": "Stefan Bill",
+      "teamId": "mnizpbguwgif",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgusvxk",
+      "no": "11",
+      "name": "Remo Truniger",
+      "teamId": "mnizpbguwgif",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvgl8e",
+      "no": "15",
+      "name": "Benjamin Scheiwiller",
+      "teamId": "mnizpbguwgif",
+      "isStaff": false,
+      "role": "G",
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgv531c",
+      "no": "17",
+      "name": "Stefano Costa",
+      "teamId": "mnizpbguwgif",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgv9bug",
+      "no": "19",
+      "name": "Nick Wehrli",
+      "teamId": "mnizpbguwgif",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgv6x5o",
+      "no": "20",
+      "name": "Fabio Rosa",
+      "teamId": "mnizpbguwgif",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgv334t",
+      "no": "21",
+      "name": "Giorgio Dal Monte",
+      "teamId": "mnizpbguwgif",
+      "isStaff": false,
+      "role": "C",
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgv7h4s",
+      "no": "22",
+      "name": "Sarina Böhi",
+      "teamId": "mnizpbguwgif",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvbq8f",
+      "no": null,
+      "name": "Hanspeter Matzinger",
+      "teamId": "mnizpbguwgif",
+      "isStaff": true,
+      "staffFunction": "Coach",
+      "role": null
+    },
+    {
+      "id": "mnizpbgv8uyo",
+      "no": null,
+      "name": "Alfred Rickenbach",
+      "teamId": "mnizpbguwgif",
+      "isStaff": true,
+      "staffFunction": "Coach",
+      "role": null
+    },
+    {
+      "id": "mnizpbgvth80",
+      "no": "00",
+      "name": "Dan Hoolsema",
+      "teamId": "mnizpbgvkciz",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvi9iv",
+      "no": "8",
+      "name": "Matt Nagy",
+      "teamId": "mnizpbgvkciz",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgva9w0",
+      "no": "9",
+      "name": "Eddie Elinburg",
+      "teamId": "mnizpbgvkciz",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgv6nsa",
+      "no": "10",
+      "name": "Piotr Pasik",
+      "teamId": "mnizpbgvkciz",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvo6yp",
+      "no": "11",
+      "name": "Kennedy Williams",
+      "teamId": "mnizpbgvkciz",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvtg4n",
+      "no": "12",
+      "name": "Hamdy Nassor",
+      "teamId": "mnizpbgvkciz",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvdqxt",
+      "no": "22",
+      "name": "Selah Clinger",
+      "teamId": "mnizpbgvkciz",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvy2jp",
+      "no": "23",
+      "name": "Kevin Konfara",
+      "teamId": "mnizpbgvkciz",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvn47o",
+      "no": "24",
+      "name": "Ethan Lockhart",
+      "teamId": "mnizpbgvkciz",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvmm91",
+      "no": "43",
+      "name": "Logan McGivern",
+      "teamId": "mnizpbgvkciz",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvo5yy",
+      "no": "4",
+      "name": "Yori Decuypere",
+      "teamId": "mnizpbgvqgd6",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvym6v",
+      "no": "6",
+      "name": "Denise Van Engelsdorp G.",
+      "teamId": "mnizpbgvqgd6",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgva6kc",
+      "no": "7",
+      "name": "Dimitri Vanslembrouck",
+      "teamId": "mnizpbgvqgd6",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvwbrr",
+      "no": "8",
+      "name": "Soilin Rioza",
+      "teamId": "mnizpbgvqgd6",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgv1u3c",
+      "no": "14",
+      "name": "Yordi Maagdenberg",
+      "teamId": "mnizpbgvqgd6",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvp5ka",
+      "no": "21",
+      "name": "Brecht Vancauwnberghe",
+      "teamId": "mnizpbgvqgd6",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvaiy0",
+      "no": "23",
+      "name": "Michael De Ruytere",
+      "teamId": "mnizpbgvqgd6",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvesvp",
+      "no": "3",
+      "name": "Tomáš Jelínek",
+      "teamId": "mnizpbgvfdxk",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvldff",
+      "no": "10",
+      "name": "Miroslav Večeřa",
+      "teamId": "mnizpbgvfdxk",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvspoh",
+      "no": "13",
+      "name": "Jan Mrázek",
+      "teamId": "mnizpbgvfdxk",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvlsm0",
+      "no": "19",
+      "name": "Lukáš Grüner",
+      "teamId": "mnizpbgvfdxk",
+      "isStaff": false,
+      "role": "G",
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgv9olg",
+      "no": "22",
+      "name": "Radomír Vaněk",
+      "teamId": "mnizpbgvfdxk",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvnz3q",
+      "no": "23",
+      "name": "Zuzana Přibilová",
+      "teamId": "mnizpbgvfdxk",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgv611a",
+      "no": "44",
+      "name": "František Synek",
+      "teamId": "mnizpbgvfdxk",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvm6vf",
+      "no": "57",
+      "name": "Štěpán Karásek",
+      "teamId": "mnizpbgvfdxk",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvl39v",
+      "no": "74",
+      "name": "Bohuslav Dvořák",
+      "teamId": "mnizpbgvfdxk",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvv0r3",
+      "no": "88",
+      "name": "Jaroslav Novotný",
+      "teamId": "mnizpbgvfdxk",
+      "isStaff": false,
+      "role": "G",
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgved2p",
+      "no": "93",
+      "name": "Jiří Valeš",
+      "teamId": "mnizpbgvfdxk",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvd4iw",
+      "no": "96",
+      "name": "Zdeněk Krupička",
+      "teamId": "mnizpbgvfdxk",
+      "isStaff": false,
+      "role": "C",
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvsafi",
+      "no": null,
+      "name": "Vladimír Mařík",
+      "teamId": "mnizpbgvfdxk",
+      "isStaff": true,
+      "staffFunction": "Head coach",
+      "role": null
+    },
+    {
+      "id": "mnizpbgvwq7i",
+      "no": null,
+      "name": "Tomáš Pek",
+      "teamId": "mnizpbgvfdxk",
+      "isStaff": true,
+      "staffFunction": "Assist. Coach",
+      "role": null
+    },
+    {
+      "id": "mnizpbgv6j69",
+      "no": null,
+      "name": "Dominika Staščíková",
+      "teamId": "mnizpbgvfdxk",
+      "isStaff": true,
+      "staffFunction": "Manager",
+      "role": null
+    },
+    {
+      "id": "mnizpbgvlh8k",
+      "no": null,
+      "name": "Karel Jakubál",
+      "teamId": "mnizpbgvfdxk",
+      "isStaff": true,
+      "staffFunction": "Physio",
+      "role": null
+    },
+    {
+      "id": "mnizpbgvdgg8",
+      "no": "1",
+      "name": "Nienke Conijn",
+      "teamId": "mnizpbgvoe78",
+      "isStaff": false,
+      "role": "C/G",
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgv7swg",
+      "no": "3",
+      "name": "Ernst Vermaas",
+      "teamId": "mnizpbgvoe78",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvdc4k",
+      "no": "4",
+      "name": "Nick Kuijk",
+      "teamId": "mnizpbgvoe78",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgv9oza",
+      "no": "5",
+      "name": "Mitchel Pol",
+      "teamId": "mnizpbgvoe78",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvztgs",
+      "no": "7",
+      "name": "Tom Roerink",
+      "teamId": "mnizpbgvoe78",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvmxrr",
+      "no": "8",
+      "name": "Joris van Erven",
+      "teamId": "mnizpbgvoe78",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgv60np",
+      "no": "9",
+      "name": "Rogier Croes",
+      "teamId": "mnizpbgvoe78",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvu73w",
+      "no": "10",
+      "name": "Rafaelle Orru",
+      "teamId": "mnizpbgvoe78",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvx5s2",
+      "no": "18",
+      "name": "Bas Akkerman",
+      "teamId": "mnizpbgvoe78",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvo68u",
+      "no": "26",
+      "name": "Berri van Manen",
+      "teamId": "mnizpbgvoe78",
+      "isStaff": false,
+      "role": "G",
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvvtee",
+      "no": null,
+      "name": "Shiraz Bandoe",
+      "teamId": "mnizpbgvoe78",
+      "isStaff": true,
+      "staffFunction": "Coach",
+      "role": null
+    },
+    {
+      "id": "mnizpbgvg3np",
+      "no": null,
+      "name": "Pascal van Dongen",
+      "teamId": "mnizpbgvoe78",
+      "isStaff": true,
+      "staffFunction": "Coach",
+      "role": null
+    },
+    {
+      "id": "mnizpbgvr9tc",
+      "no": null,
+      "name": "Ernst Bakker",
+      "teamId": "mnizpbgvoe78",
+      "isStaff": true,
+      "staffFunction": "Manager",
+      "role": null
+    },
+    {
+      "id": "mnizpbgvdpfs",
+      "no": "6",
+      "name": "Quin Gieni",
+      "teamId": "mnizpbgv7ka9",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgv9s5r",
+      "no": "7",
+      "name": "Richard Engles",
+      "teamId": "mnizpbgv7ka9",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvlkwm",
+      "no": "12",
+      "name": "Kyle Gieni",
+      "teamId": "mnizpbgv7ka9",
+      "isStaff": false,
+      "role": "C",
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvp5dq",
+      "no": "24",
+      "name": "Shaun Mills",
+      "teamId": "mnizpbgv7ka9",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvky0h",
+      "no": "59",
+      "name": "Manny Sanghera",
+      "teamId": "mnizpbgv7ka9",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvth46",
+      "no": "74",
+      "name": "Suki Sanghera",
+      "teamId": "mnizpbgv7ka9",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvcf7k",
+      "no": "86",
+      "name": "Matthew Fitzgerald",
+      "teamId": "mnizpbgv7ka9",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvhx1y",
+      "no": "98",
+      "name": "Shelly Nelson",
+      "teamId": "mnizpbgv7ka9",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgva1m2",
+      "no": null,
+      "name": "Shirley Giofu",
+      "teamId": "mnizpbgv7ka9",
+      "isStaff": true,
+      "staffFunction": "Staff",
+      "role": null
+    },
+    {
+      "id": "mnizpbgvas5w",
+      "no": null,
+      "name": "Jeremy Mills",
+      "teamId": "mnizpbgv7ka9",
+      "isStaff": true,
+      "staffFunction": "Staff",
+      "role": null
+    },
+    {
+      "id": "mnizpbgvoawk",
+      "no": null,
+      "name": "Marisa Xu",
+      "teamId": "mnizpbgv7ka9",
+      "isStaff": true,
+      "staffFunction": "Staff",
+      "role": null
+    },
+    {
+      "id": "mnizpbgvzpqz",
+      "no": null,
+      "name": "Kurt Gieni",
+      "teamId": "mnizpbgv7ka9",
+      "isStaff": true,
+      "staffFunction": "Staff",
+      "role": null
+    },
+    {
+      "id": "mnizpbgvzz3m",
+      "no": null,
+      "name": "Anne Fitzgerald",
+      "teamId": "mnizpbgv7ka9",
+      "isStaff": true,
+      "staffFunction": "Staff",
+      "role": null
+    },
+    {
+      "id": "mnizpbgv6hhf",
+      "no": "1",
+      "name": "Sten Almlöf",
+      "teamId": "mnizpbgv8xse",
+      "isStaff": false,
+      "role": "G",
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvf3if",
+      "no": "3",
+      "name": "Victor Piccardo",
+      "teamId": "mnizpbgv8xse",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvqi6i",
+      "no": "5",
+      "name": "Mattias Larsson",
+      "teamId": "mnizpbgv8xse",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvbej1",
+      "no": "7",
+      "name": "Alexander Brorsson",
+      "teamId": "mnizpbgv8xse",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvjkcm",
+      "no": "9",
+      "name": "Johnny Pettersson",
+      "teamId": "mnizpbgv8xse",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvb3ss",
+      "no": "10",
+      "name": "Robert Isaksson",
+      "teamId": "mnizpbgv8xse",
+      "isStaff": false,
+      "role": "C",
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgv5fbb",
+      "no": "12",
+      "name": "Roger Eriksson",
+      "teamId": "mnizpbgv8xse",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgv833b",
+      "no": "14",
+      "name": "Axel Eriksson",
+      "teamId": "mnizpbgv8xse",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgv6njd",
+      "no": "17",
+      "name": "Alexander Karlsson",
+      "teamId": "mnizpbgv8xse",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvginp",
+      "no": "92",
+      "name": "Kalle Toft",
+      "teamId": "mnizpbgv8xse",
+      "isStaff": false,
+      "role": "G",
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgva0c4",
+      "no": null,
+      "name": "Ola Piccardo",
+      "teamId": "mnizpbgv8xse",
+      "isStaff": true,
+      "staffFunction": "Coach",
+      "role": null
+    },
+    {
+      "id": "mnizpbgvfk1b",
+      "no": null,
+      "name": "Mats Rylander",
+      "teamId": "mnizpbgv8xse",
+      "isStaff": true,
+      "staffFunction": "Coach",
+      "role": null
+    },
+    {
+      "id": "mnizpbgv0uy1",
+      "no": null,
+      "name": "Petra Eriksson",
+      "teamId": "mnizpbgv8xse",
+      "isStaff": true,
+      "staffFunction": "Assistant",
+      "role": null
+    },
+    {
+      "id": "mnizpbgvu5nm",
+      "no": "1",
+      "name": "Joël Loizeau",
+      "teamId": "mnizpbgv2hdi",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgv6xhx",
+      "no": "2",
+      "name": "Nicolas Dumoux Fabre",
+      "teamId": "mnizpbgv2hdi",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvpofa",
+      "no": "3",
+      "name": "Maxime Launay",
+      "teamId": "mnizpbgv2hdi",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvbv0e",
+      "no": "5",
+      "name": "Frédéric Guyot",
+      "teamId": "mnizpbgv2hdi",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvy082",
+      "no": "7",
+      "name": "Romain Thomas",
+      "teamId": "mnizpbgv2hdi",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvyf8y",
+      "no": "9",
+      "name": "Aymerik Boussion",
+      "teamId": "mnizpbgv2hdi",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvgkgo",
+      "no": "10",
+      "name": "Maxime Romanet",
+      "teamId": "mnizpbgv2hdi",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvcrcv",
+      "no": "27",
+      "name": "Vincent de Lepeleire",
+      "teamId": "mnizpbgv2hdi",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvkjzx",
+      "no": "33",
+      "name": "Sébastien Perez",
+      "teamId": "mnizpbgv2hdi",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvr9ij",
+      "no": "58",
+      "name": "Camille Souillet",
+      "teamId": "mnizpbgv2hdi",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgvbuhz",
+      "no": "73",
+      "name": "Frédéric Salomon",
+      "teamId": "mnizpbgv2hdi",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgviz8n",
+      "no": "84",
+      "name": "Loïc Souillet",
+      "teamId": "mnizpbgv2hdi",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnizpbgv880k",
+      "no": null,
+      "name": "Guillaume Julien",
+      "teamId": "mnizpbgv2hdi",
+      "isStaff": true,
+      "staffFunction": "Staff",
+      "role": null
+    },
+    {
+      "id": "mnizpbgvsvvy",
+      "no": null,
+      "name": "Denis Guiguet",
+      "teamId": "mnizpbgv2hdi",
+      "isStaff": true,
+      "staffFunction": "Staff",
+      "role": null
+    },
+    {
+      "id": "mnizpbgvwefp",
+      "no": null,
+      "name": "Sylvain Batardin",
+      "teamId": "mnizpbgv2hdi",
+      "isStaff": true,
+      "staffFunction": "Staff",
+      "role": null
+    },
+    {
+      "id": "mnizpbgvp6k9",
+      "no": null,
+      "name": "Julien Lefebvre",
+      "teamId": "mnizpbgv2hdi",
+      "isStaff": true,
+      "staffFunction": "Staff",
+      "role": null
+    }
+  ],
+  "games": [
+    {
+      "id": "mnizpq2kuq0h",
+      "no": 1,
+      "date": "23.04.2026",
+      "time": "08:30",
+      "phase": "Vorrunde",
+      "group": "A",
+      "homeTeamId": "mnizpbgv7ka9",
+      "awayTeamId": "mnizpbgvfdxk",
+      "homeLabel": null,
+      "awayLabel": null,
+      "goals": [
+        {
+          "id": "mnizsecjezug",
+          "period": 1,
+          "time": "1:10",
+          "teamId": "mnizpbgv7ka9",
+          "scorerId": "mnizpbgvlkwm",
+          "assistId": "mnizpbgvhx1y",
+          "homeScore": 1,
+          "awayScore": 0
+        },
+        {
+          "id": "mnj0bwciya5j",
+          "period": 1,
+          "time": "1:11",
+          "teamId": "mnizpbgv7ka9",
+          "scorerId": "mnizpbgvky0h",
+          "assistId": "mnizpbgvp5dq",
+          "homeScore": 2,
+          "awayScore": 0
+        }
+      ],
+      "penalties": [
+        {
+          "id": "mnj0h325as5t",
+          "period": 2,
+          "time": "03:55",
+          "teamId": "mnizpbgvfdxk",
+          "playerId": "mnizpbgvesvp",
+          "minutes": "2",
+          "code": "Holding"
+        }
+      ],
+      "finished": true
+    },
+    {
+      "id": "mnizpq2kqkh2",
+      "no": 2,
+      "date": "23.04.2026",
+      "time": "09:20",
+      "phase": "Vorrunde",
+      "group": "B",
+      "homeTeamId": "mnizpbgvqgd6",
+      "awayTeamId": "mnizpbgvoe78",
+      "homeLabel": null,
+      "awayLabel": null,
+      "goals": [],
+      "penalties": [],
+      "finished": false
+    },
+    {
+      "id": "mnizpq2khusu",
+      "no": 3,
+      "date": "23.04.2026",
+      "time": "10:10",
+      "phase": "Vorrunde",
+      "group": "A",
+      "homeTeamId": "mnizpbgvkciz",
+      "awayTeamId": "mnizpbguwgif",
+      "homeLabel": null,
+      "awayLabel": null,
+      "goals": [],
+      "penalties": [],
+      "finished": false
+    },
+    {
+      "id": "mnizpq2kqkqi",
+      "no": 4,
+      "date": "23.04.2026",
+      "time": "11:00",
+      "phase": "Vorrunde",
+      "group": "B",
+      "homeTeamId": "mnizpbgv2hdi",
+      "awayTeamId": "mnizpbgv8xse",
+      "homeLabel": null,
+      "awayLabel": null,
+      "goals": [],
+      "penalties": [],
+      "finished": false
+    },
+    {
+      "id": "mnizpq2kqh8f",
+      "no": 5,
+      "date": "23.04.2026",
+      "time": "13:00",
+      "phase": "Vorrunde",
+      "group": "A",
+      "homeTeamId": "mnizpbguwgif",
+      "awayTeamId": "mnizpbgv7ka9",
+      "homeLabel": null,
+      "awayLabel": null,
+      "goals": [],
+      "penalties": [],
+      "finished": false
+    },
+    {
+      "id": "mnizpq2kcuef",
+      "no": 6,
+      "date": "23.04.2026",
+      "time": "13:50",
+      "phase": "Vorrunde",
+      "group": "B",
+      "homeTeamId": "mnizpbgv8xse",
+      "awayTeamId": "mnizpbgvqgd6",
+      "homeLabel": null,
+      "awayLabel": null,
+      "goals": [],
+      "penalties": [],
+      "finished": false
+    },
+    {
+      "id": "mnizpq2kg5qi",
+      "no": 7,
+      "date": "23.04.2026",
+      "time": "14:40",
+      "phase": "Vorrunde",
+      "group": "A",
+      "homeTeamId": "mnizpbgvfdxk",
+      "awayTeamId": "mnizpbgvkciz",
+      "homeLabel": null,
+      "awayLabel": null,
+      "goals": [],
+      "penalties": [],
+      "finished": false
+    },
+    {
+      "id": "mnizpq2kehgn",
+      "no": 8,
+      "date": "23.04.2026",
+      "time": "15:30",
+      "phase": "Vorrunde",
+      "group": "B",
+      "homeTeamId": "mnizpbgvoe78",
+      "awayTeamId": "mnizpbgv2hdi",
+      "homeLabel": null,
+      "awayLabel": null,
+      "goals": [],
+      "penalties": [],
+      "finished": false
+    },
+    {
+      "id": "mnizpq2kmivm",
+      "no": 9,
+      "date": "23.04.2026",
+      "time": "16:20",
+      "phase": "Vorrunde",
+      "group": "A",
+      "homeTeamId": "mnizpbgv7ka9",
+      "awayTeamId": "mnizpbgvkciz",
+      "homeLabel": null,
+      "awayLabel": null,
+      "goals": [],
+      "penalties": [],
+      "finished": false
+    },
+    {
+      "id": "mnizpq2kw0hu",
+      "no": 10,
+      "date": "23.04.2026",
+      "time": "17:10",
+      "phase": "Vorrunde",
+      "group": "B",
+      "homeTeamId": "mnizpbgvqgd6",
+      "awayTeamId": "mnizpbgv2hdi",
+      "homeLabel": null,
+      "awayLabel": null,
+      "goals": [],
+      "penalties": [],
+      "finished": false
+    },
+    {
+      "id": "mnizpq2kdncu",
+      "no": 11,
+      "date": "24.04.2026",
+      "time": "08:30",
+      "phase": "Vorrunde",
+      "group": "A",
+      "homeTeamId": "mnizpbguwgif",
+      "awayTeamId": "mnizpbgvfdxk",
+      "homeLabel": null,
+      "awayLabel": null,
+      "goals": [],
+      "penalties": [],
+      "finished": false
+    },
+    {
+      "id": "mnizpq2k6wvb",
+      "no": 12,
+      "date": "24.04.2026",
+      "time": "09:20",
+      "phase": "Vorrunde",
+      "group": "B",
+      "homeTeamId": "mnizpbgv8xse",
+      "awayTeamId": "mnizpbgvoe78",
+      "homeLabel": null,
+      "awayLabel": null,
+      "goals": [],
+      "penalties": [],
+      "finished": false
+    },
+    {
+      "id": "mnizpq2k4d43",
+      "no": 13,
+      "date": "24.04.2026",
+      "time": "10:15",
+      "phase": "4. Viertelfinale",
+      "group": null,
+      "homeTeamId": "mnizpbgv7ka9",
+      "awayTeamId": "mnizpbgv2hdi",
+      "homeLabel": null,
+      "awayLabel": null,
+      "goals": [],
+      "penalties": [],
+      "finished": false
+    },
+    {
+      "id": "mnizpq2kjr4h",
+      "no": 14,
+      "date": "24.04.2026",
+      "time": "11:30",
+      "phase": "3. Viertelfinale",
+      "group": null,
+      "homeTeamId": "mnizpbguwgif",
+      "awayTeamId": "mnizpbgv8xse",
+      "homeLabel": null,
+      "awayLabel": null,
+      "goals": [],
+      "penalties": [],
+      "finished": false
+    },
+    {
+      "id": "mnizpq2kpi2u",
+      "no": 15,
+      "date": "24.04.2026",
+      "time": "13:30",
+      "phase": "2. Viertelfinale",
+      "group": null,
+      "homeTeamId": "mnizpbgvoe78",
+      "awayTeamId": "mnizpbgvkciz",
+      "homeLabel": null,
+      "awayLabel": null,
+      "goals": [],
+      "penalties": [],
+      "finished": false
+    },
+    {
+      "id": "mnizpq2kmemb",
+      "no": 16,
+      "date": "24.04.2026",
+      "time": "14:45",
+      "phase": "1. Viertelfinale",
+      "group": null,
+      "homeTeamId": "mnizpbgvqgd6",
+      "awayTeamId": "mnizpbgvfdxk",
+      "homeLabel": null,
+      "awayLabel": null,
+      "goals": [],
+      "penalties": [],
+      "finished": false
+    },
+    {
+      "id": "mnizpq2k0wew",
+      "no": 17,
+      "date": "24.04.2026",
+      "time": "16:00",
+      "phase": "4. Halbfinale (Pl. 5–8)",
+      "group": null,
+      "homeTeamId": null,
+      "awayTeamId": null,
+      "homeLabel": "Verlierer 2. VF",
+      "awayLabel": "Verlierer 4. VF",
+      "goals": [],
+      "penalties": [],
+      "finished": false
+    },
+    {
+      "id": "mnizpq2kqp9l",
+      "no": 18,
+      "date": "24.04.2026",
+      "time": "17:15",
+      "phase": "3. Halbfinale (Pl. 5–8)",
+      "group": null,
+      "homeTeamId": null,
+      "awayTeamId": null,
+      "homeLabel": "Verlierer 1. VF",
+      "awayLabel": "Verlierer 3. VF",
+      "goals": [],
+      "penalties": [],
+      "finished": false
+    },
+    {
+      "id": "mnizpq2k6gol",
+      "no": 19,
+      "date": "25.04.2026",
+      "time": "08:30",
+      "phase": "2. Halbfinale",
+      "group": null,
+      "homeTeamId": null,
+      "awayTeamId": null,
+      "homeLabel": "Gewinner 2. VF",
+      "awayLabel": "Gewinner 4. VF",
+      "goals": [],
+      "penalties": [],
+      "finished": false
+    },
+    {
+      "id": "mnizpq2kbm9t",
+      "no": 20,
+      "date": "25.04.2026",
+      "time": "09:45",
+      "phase": "1. Halbfinale",
+      "group": null,
+      "homeTeamId": null,
+      "awayTeamId": null,
+      "homeLabel": "Gewinner 1. VF",
+      "awayLabel": "Gewinner 3. VF",
+      "goals": [],
+      "penalties": [],
+      "finished": false
+    },
+    {
+      "id": "mnizpq2kl3kr",
+      "no": 21,
+      "date": "25.04.2026",
+      "time": "11:00",
+      "phase": "Spiel um 7. Platz",
+      "group": null,
+      "homeTeamId": null,
+      "awayTeamId": null,
+      "homeLabel": "Verlierer 3. HF",
+      "awayLabel": "Verlierer 4. HF",
+      "goals": [],
+      "penalties": [],
+      "finished": false
+    },
+    {
+      "id": "mnizpq2koodw",
+      "no": 22,
+      "date": "25.04.2026",
+      "time": "13:00",
+      "phase": "Spiel um 5. Platz",
+      "group": null,
+      "homeTeamId": null,
+      "awayTeamId": null,
+      "homeLabel": "Gewinner 3. HF",
+      "awayLabel": "Gewinner 4. HF",
+      "goals": [],
+      "penalties": [],
+      "finished": false
+    },
+    {
+      "id": "mnizpq2krisz",
+      "no": 23,
+      "date": "25.04.2026",
+      "time": "14:15",
+      "phase": "Spiel um 3. Platz",
+      "group": null,
+      "homeTeamId": null,
+      "awayTeamId": null,
+      "homeLabel": "Verlierer 1. HF",
+      "awayLabel": "Verlierer 2. HF",
+      "goals": [],
+      "penalties": [],
+      "finished": false
+    },
+    {
+      "id": "mnizpq2k8hyb",
+      "no": 24,
+      "date": "25.04.2026",
+      "time": "15:30",
+      "phase": "Finale",
+      "group": null,
+      "homeTeamId": null,
+      "awayTeamId": null,
+      "homeLabel": "Gewinner 1. HF",
+      "awayLabel": "Gewinner 2. HF",
+      "goals": [],
+      "penalties": [],
+      "finished": false
+    }
+  ]
+}
