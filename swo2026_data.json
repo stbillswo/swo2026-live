@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-03T16:41:25.014Z",
+  "timestamp": "2026-04-03T16:45:35.456Z",
   "teams": [
     {
       "id": "mnizpbguwgif",
@@ -1156,7 +1156,17 @@
           "awayScore": 3
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "id": "mnj4xcgvbk7g",
+          "period": 1,
+          "time": "05:55",
+          "teamId": "mnizpbguwgif",
+          "playerId": "mnizpbguaw9l",
+          "minutes": "10",
+          "code": "Misconduct (10 min)"
+        }
+      ],
       "finished": false
     },
     {
