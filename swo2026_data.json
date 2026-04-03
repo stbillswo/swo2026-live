@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-03T16:45:35.456Z",
+  "timestamp": "2026-04-03T16:48:01.924Z",
   "teams": [
     {
       "id": "mnizpbguwgif",
@@ -1167,7 +1167,7 @@
           "code": "Misconduct (10 min)"
         }
       ],
-      "finished": false
+      "finished": true
     },
     {
       "id": "mnizpq2kqkqi",
@@ -1311,7 +1311,7 @@
       "time": "10:15",
       "phase": "4. Viertelfinale",
       "group": null,
-      "homeTeamId": "mnizpbgv7ka9",
+      "homeTeamId": "mnizpbguwgif",
       "awayTeamId": "mnizpbgvoe78",
       "homeLabel": null,
       "awayLabel": null,
@@ -1326,7 +1326,7 @@
       "time": "11:30",
       "phase": "3. Viertelfinale",
       "group": null,
-      "homeTeamId": "mnizpbguwgif",
+      "homeTeamId": "mnizpbgv7ka9",
       "awayTeamId": "mnizpbgv2hdi",
       "homeLabel": null,
       "awayLabel": null,
@@ -1342,7 +1342,7 @@
       "phase": "2. Viertelfinale",
       "group": null,
       "homeTeamId": "mnizpbgv8xse",
-      "awayTeamId": "mnizpbgvkciz",
+      "awayTeamId": "mnizpbgvfdxk",
       "homeLabel": null,
       "awayLabel": null,
       "goals": [],
@@ -1357,7 +1357,7 @@
       "phase": "1. Viertelfinale",
       "group": null,
       "homeTeamId": "mnizpbgvqgd6",
-      "awayTeamId": "mnizpbgvfdxk",
+      "awayTeamId": "mnizpbgvkciz",
       "homeLabel": null,
       "awayLabel": null,
       "goals": [],
