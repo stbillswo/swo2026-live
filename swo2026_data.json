@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-04T08:06:29.745Z",
+  "timestamp": "2026-04-04T08:06:42.504Z",
   "teams": [
     {
       "id": "mnjzol93f1au",
@@ -1537,7 +1537,7 @@
           "code": "Misconduct (10 min)"
         }
       ],
-      "finished": false
+      "finished": true
     },
     {
       "id": "mnjzonvnh804",
