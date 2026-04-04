@@ -153,7 +153,7 @@ async function load(){
     if(r.status===404){
       document.getElementById('update-time').textContent='No data available yet';
       document.getElementById('live-pill').innerHTML='<span style="opacity:.5">WARTEN</span>';
-      document.getElementById('content').innerHTML='<div class="err" style="border-color:rgba(255,211,42,.3);color:var(--yellow)"><b>Noch keine Daten</b><br><small>Please publish from the Admin App.</small></div>';
+      document.getElementById('content').innerHTML='<div class="err" style="border-color:rgba(255,211,42,.3);color:var(--yellow)"><b>No data available yet</b><br><small>Please publish from the Admin App.</small></div>';
       return;
     }
     if(!r.ok)throw new Error('HTTP '+r.status+' von '+DATA_URL);
@@ -184,7 +184,7 @@ function render(){
 
 const PH=['Group Stage','4. Quarter-Final','3. Quarter-Final','2. Quarter-Final','1. Quarter-Final','4. Semi-Final (Pl. 5–8)','3. Semi-Final (Pl. 5–8)','2. Semi-Final','1. Semi-Final','7th Place Game','5th Place Game','3rd Place Game','Final'];
 
-// Welche Spielnummern müssen beendet sein bevor eine Phase sichtbar wird
+// Which game numbers must be finished before a phase becomes visible
 const PHASE_UNLOCK={
   '4. Quarter-Final':[1,2,3,4,5,6,7,8,9,10,11,12],
   '3. Quarter-Final':[1,2,3,4,5,6,7,8,9,10,11,12],
@@ -201,7 +201,7 @@ const PHASE_UNLOCK={
 };
 function phaseUnlocked(ph){
   const required=PHASE_UNLOCK[ph];
-  if(!required)return true; // Group Stage immer anzeigen
+  if(!required)return true; // Group Stage always visible
   return required.every(no=>db.games.find(g=>+g.no===no&&g.finished));
 }
 
@@ -215,10 +215,10 @@ function rScores(){
       const tbd=!(g.homeTeamId&&g.awayTeamId);
       const{h,a}=tbd?{h:0,a:0}:score(g);
       const gst=g.finished?`<span class="s-done">✓ Final</span>`
-        :g.homeTeamId?`<span class="s-time">${g.time||''}</span><br><span class="s-open">${g.date||''}</span>`
+        :g.time?`<span class="s-time">${g.time}</span><br><span class="s-open">${g.date||''}</span>`
         :`<span class="s-open">TBD</span>`;
       return`<div class="game-card ${g.finished?'done':''} ${tbd?'tbd':''}" onclick="${tbd?'':`showGameDetail('${g.id}')`}">
-        <div class="gmeta"><b>SPIEL ${g.no}</b><br>${g.date||''}<br>${g.group?'Gr. '+g.group:''}</div>
+        <div class="gmeta"><b>GAME ${g.no}</b><br>${g.date||''}<br>${g.group?'Gr. '+g.group:''}</div>
         <div class="gteam r">${tbd?`<span style="color:var(--dim);font-size:13px">${ht(g)}</span>`:ht(g)}</div>
         <div class="gscore ${g.finished?'done':''}">${tbd?'<span style="color:var(--dim)">–:–</span>':`${h}<span class="gsep">:</span>${a}`}</div>
         <div class="gteam">${tbd?`<span style="color:var(--dim);font-size:13px">${at(g)}</span>`:at(g)}</div>
@@ -234,7 +234,7 @@ function rStandings(){
   const rg=(s,grp)=>{
     const rows=s.map((x,i)=>{const td=x.gf-x.ga;const tds=td>0?`<span class="tdp">+${td}</span>`:td<0?`<span class="tdn">${td}</span>`:'0';
       return`<tr><td style="color:var(--dim);font-size:12px">${i+1}</td><td>${x.team.name}</td><td>${x.gp}</td><td>${x.gf}:${x.ga}</td><td>${tds}</td><td class="pts">${x.pts}</td></tr>`;}).join('');
-    return`<div class="st-block"><div class="st-head">Gruppe ${grp}</div><table class="st-tbl"><thead><tr><th></th><th>Team</th><th>GP</th><th>G</th><th>GD</th><th>Pts</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+    return`<div class="st-block"><div class="st-head">Group ${grp}</div><table class="st-tbl"><thead><tr><th></th><th>Team</th><th>GP</th><th>G</th><th>GD</th><th>Pts</th></tr></thead><tbody>${rows}</tbody></table></div>`;
   };
   const sA=st('A'),sB=st('B');
   if(!sA.length&&!sB.length)return`<p style="color:var(--dim);padding:40px;text-align:center">No data yet.</p>`;
@@ -282,7 +282,7 @@ function rPoints(){
     </tr>`;
   }).join('');
   return`<div class="stats-wrap"><table class="stats-tbl">
-    <thead><tr><th>Rang</th><th>Nr.</th><th>Spieler</th><th>Team</th>
+    <thead><tr><th>Rank</th><th>No.</th><th>Player</th><th>Team</th>
     <th style="text-align:center">Goals</th>
     <th style="text-align:center">Assists</th>
     <th style="text-align:center">Points</th></tr></thead>
@@ -304,7 +304,7 @@ function rPenalties(){
     </tr>`;
   }).join('');
   return`<div class="stats-wrap"><table class="stats-tbl">
-    <thead><tr><th>Rang</th><th>Nr.</th><th>Spieler</th><th>Team</th>
+    <thead><tr><th>Rank</th><th>No.</th><th>Player</th><th>Team</th>
     <th style="text-align:center">Penalty Minutes</th></tr></thead>
     <tbody>${rs}</tbody>
   </table></div>`;
@@ -314,7 +314,7 @@ function rPoints(){
   const rows=buildStats().filter(s=>s.pts>0||s.g>0||s.a>0)
     .sort((a,b)=>b.pts-a.pts||b.g-a.g||b.a-a.a);
   if(!rows.length)return`<p style="color:var(--dim);padding:40px;text-align:center">No goals scored yet.</p>`;
-  // Rang berechnen: gleicher Rang bei gleichen Pts, Tore UND Assists
+  // Dense ranking: same rank for equal Pts, Goals AND Assists
   let rank=1;
   const rs=rows.map((s,i)=>{
     if(i>0){const prev=rows[i-1];if(s.pts!==prev.pts||s.g!==prev.g||s.a!==prev.a)rank=i+1;}
@@ -329,9 +329,9 @@ function rPoints(){
     </tr>`;
   }).join('');
   return`<div class="stats-wrap"><table class="stats-tbl">
-    <thead><tr><th>Rang</th><th>Nr.</th><th>Spieler</th><th>Team</th>
-    <th style="text-align:center">Tore</th><th style="text-align:center">Assists</th>
-    <th style="text-align:center">Punkte</th></tr></thead>
+    <thead><tr><th>Rank</th><th>No.</th><th>Player</th><th>Team</th>
+    <th style="text-align:center">Goals</th><th style="text-align:center">Assists</th>
+    <th style="text-align:center">Points</th></tr></thead>
     <tbody>${rs}</tbody>
   </table></div>`;
 }
@@ -352,7 +352,7 @@ function rPenalties(){
     </tr>`;
   }).join('');
   return`<div class="stats-wrap"><table class="stats-tbl">
-    <thead><tr><th>Rang</th><th>Nr.</th><th>Spieler</th><th>Team</th>
+    <thead><tr><th>Rank</th><th>No.</th><th>Player</th><th>Team</th>
     <th style="text-align:center">Penalty Minutes</th></tr></thead>
     <tbody>${rs}</tbody>
   </table></div>`;
@@ -422,7 +422,7 @@ function showGameDetail(gid){
   document.getElementById('detail-overlay').innerHTML=`
     <div style="background:var(--surface);border:1px solid var(--border);border-radius:14px;width:100%;max-width:680px;max-height:92vh;overflow-y:auto">
       <div style="padding:16px 20px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between">
-        <div style="font-size:20px;font-weight:900;letter-spacing:1px">SPIEL ${g.no} – ${g.phase||''}</div>
+        <div style="font-size:20px;font-weight:900;letter-spacing:1px">GAME ${g.no} – ${g.phase||''}</div>
         <button onclick="closeDetail()" style="background:none;border:none;color:var(--dim);font-size:22px;cursor:pointer">✕</button>
       </div>
       <div style="padding:20px">
@@ -437,14 +437,14 @@ function showGameDetail(gid){
         <!-- ROSTERS -->
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:20px">
           <div>
-            <div style="font-size:11px;font-weight:700;letter-spacing:2px;color:var(--dim);text-transform:uppercase;margin-bottom:6px">Heim – ${home?.name||'?'}</div>
+            <div style="font-size:11px;font-weight:700;letter-spacing:2px;color:var(--dim);text-transform:uppercase;margin-bottom:6px">Home – ${home?.name||'?'}</div>
             <table style="width:100%;border-collapse:collapse;font-size:13px">
               <tbody>${rosterRows(hp)}</tbody>
             </table>
             ${hs2.length?`<div style="font-size:10px;color:var(--dim);letter-spacing:1px;text-transform:uppercase;margin:8px 0 4px">Staff</div><table style="width:100%;border-collapse:collapse;font-size:12px"><tbody>${staffRows(hs2)}</tbody></table>`:''}
           </div>
           <div>
-            <div style="font-size:11px;font-weight:700;letter-spacing:2px;color:var(--dim);text-transform:uppercase;margin-bottom:6px">Gast – ${away?.name||'?'}</div>
+            <div style="font-size:11px;font-weight:700;letter-spacing:2px;color:var(--dim);text-transform:uppercase;margin-bottom:6px">Away – ${away?.name||'?'}</div>
             <table style="width:100%;border-collapse:collapse;font-size:13px">
               <tbody>${rosterRows(ap)}</tbody>
             </table>
@@ -454,20 +454,20 @@ function showGameDetail(gid){
 
         <!-- GOALS -->
         ${g.goals.length?`
-        <div style="font-size:11px;font-weight:700;letter-spacing:2px;color:var(--dim);text-transform:uppercase;border-bottom:1px solid var(--border);padding-bottom:5px;margin-bottom:8px">Torschützen / Scorer</div>
+        <div style="font-size:11px;font-weight:700;letter-spacing:2px;color:var(--dim);text-transform:uppercase;border-bottom:1px solid var(--border);padding-bottom:5px;margin-bottom:8px">Goalscorers</div>
         <div style="overflow-x:auto;margin-bottom:16px">
           <table style="width:100%;border-collapse:collapse;font-size:13px">
-            <thead><tr>${['Periode','Zeit','Team','Torschütze','Assist','Stand'].map(h=>`<th style="text-align:left;padding:5px 8px;font-size:10px;color:var(--dim);letter-spacing:1px;text-transform:uppercase;border-bottom:1px solid var(--border)">${h}</th>`).join('')}</tr></thead>
+            <thead><tr>${['Period','Time','Team','Scorer','Assist','Score'].map(h=>`<th style="text-align:left;padding:5px 8px;font-size:10px;color:var(--dim);letter-spacing:1px;text-transform:uppercase;border-bottom:1px solid var(--border)">${h}</th>`).join('')}</tr></thead>
             <tbody>${goalRows}</tbody>
           </table>
-        </div>`:'<div style="color:var(--dim);font-size:13px;margin-bottom:14px">Noch keine Tore</div>'}
+        </div>`:'<div style="color:var(--dim);font-size:13px;margin-bottom:14px">No goals yet</div>'}
 
         <!-- PENALTIES -->
         ${g.penalties.length?`
-        <div style="font-size:11px;font-weight:700;letter-spacing:2px;color:var(--dim);text-transform:uppercase;border-bottom:1px solid var(--border);padding-bottom:5px;margin-bottom:8px">Strafen / Penalties</div>
+        <div style="font-size:11px;font-weight:700;letter-spacing:2px;color:var(--dim);text-transform:uppercase;border-bottom:1px solid var(--border);padding-bottom:5px;margin-bottom:8px">Penalties</div>
         <div style="overflow-x:auto">
           <table style="width:100%;border-collapse:collapse;font-size:13px">
-            <thead><tr>${['Periode','Zeit','Team','Spieler','Min.','Code'].map(h=>`<th style="text-align:left;padding:5px 8px;font-size:10px;color:var(--dim);letter-spacing:1px;text-transform:uppercase;border-bottom:1px solid var(--border)">${h}</th>`).join('')}</tr></thead>
+            <thead><tr>${['Period','Time','Team','Player','Min.','Code'].map(h=>`<th style="text-align:left;padding:5px 8px;font-size:10px;color:var(--dim);letter-spacing:1px;text-transform:uppercase;border-bottom:1px solid var(--border)">${h}</th>`).join('')}</tr></thead>
             <tbody>${penRows}</tbody>
           </table>
         </div>`:''}
@@ -482,7 +482,7 @@ load();
 setInterval(()=>{
   cd--;
   const el=document.getElementById('update-time');
-  if(el&&el.textContent.includes('Stand:'))el.textContent=el.textContent.replace(/Refresh in \d+s/,'Refresh in '+cd+'s');
+  if(el&&el.textContent.includes('Last update:'))el.textContent=el.textContent.replace(/Refresh in \d+s/,'Refresh in '+cd+'s');
   if(cd<=0){cd=REFRESH;load();}
 },1000);
 </script>
