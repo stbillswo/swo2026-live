@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-04T07:45:06.500Z",
+  "timestamp": "2026-04-04T07:45:12.368Z",
   "teams": [
     {
       "id": "mnjzol93f1au",
@@ -1518,7 +1518,7 @@
         }
       ],
       "penalties": [],
-      "finished": false
+      "finished": true
     },
     {
       "id": "mnjzonvnh804",
@@ -1557,10 +1557,10 @@
       "time": "14:15",
       "phase": "Spiel um 3. Platz",
       "group": null,
-      "homeTeamId": null,
-      "awayTeamId": null,
-      "homeLabel": "Loser 1st SF",
-      "awayLabel": "Loser 2nd SF",
+      "homeTeamId": "mnjzol94q4i5",
+      "awayTeamId": "mnjzol94b6ru",
+      "homeLabel": null,
+      "awayLabel": null,
       "goals": [],
       "penalties": [],
       "finished": false
@@ -1572,10 +1572,10 @@
       "time": "15:30",
       "phase": "Finale",
       "group": null,
-      "homeTeamId": null,
-      "awayTeamId": null,
-      "homeLabel": "Winner 1st SF",
-      "awayLabel": "Winner 2nd SF",
+      "homeTeamId": "mnjzol94a7p6",
+      "awayTeamId": "mnjzol93f1au",
+      "homeLabel": null,
+      "awayLabel": null,
       "goals": [],
       "penalties": [],
       "finished": false
