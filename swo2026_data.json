@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-04T07:39:23.727Z",
+  "timestamp": "2026-04-04T07:39:25.174Z",
   "teams": [
     {
       "id": "mnjzol93f1au",
@@ -1280,7 +1280,7 @@
         }
       ],
       "penalties": [],
-      "finished": false
+      "finished": true
     },
     {
       "id": "mnjzonvnrlgj",
@@ -1289,10 +1289,10 @@
       "time": "10:15",
       "phase": "4. Viertelfinale",
       "group": null,
-      "homeTeamId": null,
-      "awayTeamId": null,
-      "homeLabel": "1st Group A",
-      "awayLabel": "4th Group B",
+      "homeTeamId": "mnjzol93f1au",
+      "awayTeamId": "mnjzol94x3d8",
+      "homeLabel": null,
+      "awayLabel": null,
       "goals": [],
       "penalties": [],
       "finished": false
@@ -1304,10 +1304,10 @@
       "time": "11:30",
       "phase": "3. Viertelfinale",
       "group": null,
-      "homeTeamId": null,
-      "awayTeamId": null,
-      "homeLabel": "2nd Group A",
-      "awayLabel": "3rd Group B",
+      "homeTeamId": "mnjzol94q4i5",
+      "awayTeamId": "mnjzol943mqp",
+      "homeLabel": null,
+      "awayLabel": null,
       "goals": [],
       "penalties": [],
       "finished": false
@@ -1319,10 +1319,10 @@
       "time": "13:30",
       "phase": "2. Viertelfinale",
       "group": null,
-      "homeTeamId": null,
-      "awayTeamId": null,
-      "homeLabel": "2nd Group B",
-      "awayLabel": "3rd Group A",
+      "homeTeamId": "mnjzol94b6ru",
+      "awayTeamId": "mnjzol9439by",
+      "homeLabel": null,
+      "awayLabel": null,
       "goals": [],
       "penalties": [],
       "finished": false
@@ -1334,10 +1334,10 @@
       "time": "14:45",
       "phase": "1. Viertelfinale",
       "group": null,
-      "homeTeamId": null,
-      "awayTeamId": null,
-      "homeLabel": "1st Group B",
-      "awayLabel": "4th Group A",
+      "homeTeamId": "mnjzol94a7p6",
+      "awayTeamId": "mnjzol9460ss",
+      "homeLabel": null,
+      "awayLabel": null,
       "goals": [],
       "penalties": [],
       "finished": false
