@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-04T07:51:11.862Z",
+  "timestamp": "2026-04-04T08:00:07.083Z",
   "teams": [
     {
       "id": "mnjzol93f1au",
@@ -1625,8 +1625,8 @@
           "period": 1,
           "time": "1:11",
           "teamId": "mnjzol93f1au",
-          "scorerId": "mnjzol94euiz",
-          "assistId": "mnjzol94pyeq",
+          "scorerId": "mnjzol94pyeq",
+          "assistId": "mnjzol94w8a3",
           "homeScore": 0,
           "awayScore": 1
         },
@@ -1635,8 +1635,8 @@
           "period": 1,
           "time": "2:22",
           "teamId": "mnjzol93f1au",
-          "scorerId": "mnjzol94euiz",
-          "assistId": "mnjzol94w8a3",
+          "scorerId": "mnjzol94w8a3",
+          "assistId": "mnjzol94pyeq",
           "homeScore": 0,
           "awayScore": 2
         },
@@ -1655,8 +1655,8 @@
           "period": 2,
           "time": "6:47",
           "teamId": "mnjzol93f1au",
-          "scorerId": "mnjzol943edd",
-          "assistId": "mnjzol93276c",
+          "scorerId": "mnjzol94pyeq",
+          "assistId": "mnjzol943edd",
           "homeScore": 0,
           "awayScore": 4
         }
