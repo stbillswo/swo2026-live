@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-04T07:42:02.661Z",
+  "timestamp": "2026-04-04T07:42:03.816Z",
   "teams": [
     {
       "id": "mnjzol93f1au",
@@ -1394,7 +1394,7 @@
         }
       ],
       "penalties": [],
-      "finished": false
+      "finished": true
     },
     {
       "id": "mnjzonvnpr47",
@@ -1418,10 +1418,10 @@
       "time": "17:15",
       "phase": "3. Halbfinale (Pl. 5–8)",
       "group": null,
-      "homeTeamId": null,
-      "awayTeamId": null,
-      "homeLabel": "Loser 1st QF",
-      "awayLabel": "Loser 3rd QF",
+      "homeTeamId": "mnjzol9460ss",
+      "awayTeamId": "mnjzol943mqp",
+      "homeLabel": null,
+      "awayLabel": null,
       "goals": [],
       "penalties": [],
       "finished": false
@@ -1448,10 +1448,10 @@
       "time": "09:45",
       "phase": "1. Halbfinale",
       "group": null,
-      "homeTeamId": null,
-      "awayTeamId": null,
-      "homeLabel": "Winner 1st QF",
-      "awayLabel": "Winner 3rd QF",
+      "homeTeamId": "mnjzol94a7p6",
+      "awayTeamId": "mnjzol94q4i5",
+      "homeLabel": null,
+      "awayLabel": null,
       "goals": [],
       "penalties": [],
       "finished": false
