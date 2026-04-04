@@ -131,8 +131,30 @@ let cd=REFRESH;
 
 const byId=id=>db.teams.find(t=>t.id===id);
 const score=g=>{let h=0,a=0;for(const x of g.goals){if(x.teamId===g.homeTeamId)h++;else a++;}return{h,a};};
-const ht=g=>g.homeTeamId?byId(g.homeTeamId)?.name||'?':g.homeLabel||'—';
-const at=g=>g.awayTeamId?byId(g.awayTeamId)?.name||'?':g.awayLabel||'—';
+// Translate any German phase names / labels that may come from older JSON data
+function xlPhase(s){
+  if(!s)return s;
+  return s
+    .replace('Vorrunde','Group Stage')
+    .replace('Viertelfinale','Quarter-Final')
+    .replace('Halbfinale (Pl. 5–8)','Semi-Final (Pl. 5–8)')
+    .replace('Halbfinale','Semi-Final')
+    .replace('Spiel um 7. Platz','7th Place Game')
+    .replace('Spiel um 5. Platz','5th Place Game')
+    .replace('Spiel um 3. Platz','3rd Place Game')
+    .replace('Finale','Final')
+    .replace('Finalrunde','Playoffs');
+}
+function xlLabel(s){
+  if(!s)return s;
+  return s
+    .replace(/(\d+)\. Gruppe A/g,(_,n)=>['','1st','2nd','3rd','4th'][+n]+' Group A')
+    .replace(/(\d+)\. Gruppe B/g,(_,n)=>['','1st','2nd','3rd','4th'][+n]+' Group B')
+    .replace('Gewinner','Winner').replace('Verlierer','Loser')
+    .replace('. VF',' QF').replace('. HF',' SF');
+}
+const ht=g=>g.homeTeamId?byId(g.homeTeamId)?.name||'?':xlLabel(g.homeLabel)||'—';
+const at=g=>g.awayTeamId?byId(g.awayTeamId)?.name||'?':xlLabel(g.awayLabel)||'—';
 
 function st(grp){
   const teams=db.teams.filter(t=>t.group===grp);
@@ -218,7 +240,7 @@ function rScores(){
         :g.time?`<span class="s-time">${g.time}</span><br><span class="s-open">${g.date||''}</span>`
         :`<span class="s-open">TBD</span>`;
       return`<div class="game-card ${g.finished?'done':''} ${tbd?'tbd':''}" onclick="${tbd?'':`showGameDetail('${g.id}')`}">
-        <div class="gmeta"><b>GAME ${g.no}</b><br>${g.date||''}<br>${g.group?'Gr. '+g.group:''}</div>
+        <div class="gmeta"><b>GAME ${g.no}</b><br>${g.date||''}<br>${g.group?'Group '+g.group:''}</div>
         <div class="gteam r">${tbd?`<span style="color:var(--dim);font-size:13px">${ht(g)}</span>`:ht(g)}</div>
         <div class="gscore ${g.finished?'done':''}">${tbd?'<span style="color:var(--dim)">–:–</span>':`${h}<span class="gsep">:</span>${a}`}</div>
         <div class="gteam">${tbd?`<span style="color:var(--dim);font-size:13px">${at(g)}</span>`:at(g)}</div>
@@ -226,7 +248,7 @@ function rScores(){
       </div>`;
     }).join('');
     const done=gs.filter(g=>g.finished).length;
-    return`<div class="phase-block"><div class="section-hdr"><h2>${ph}</h2><span class="pill">${done}/${gs.length}</span></div><div class="games-list">${cards}</div></div>`;
+    return`<div class="phase-block"><div class="section-hdr"><h2>${xlPhase(ph)}</h2><span class="pill">${done}/${gs.length} game${gs.length!==1?'s':''}</span></div><div class="games-list">${cards}</div></div>`;
   }).join('');
 }
 
@@ -422,7 +444,7 @@ function showGameDetail(gid){
   document.getElementById('detail-overlay').innerHTML=`
     <div style="background:var(--surface);border:1px solid var(--border);border-radius:14px;width:100%;max-width:680px;max-height:92vh;overflow-y:auto">
       <div style="padding:16px 20px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between">
-        <div style="font-size:20px;font-weight:900;letter-spacing:1px">GAME ${g.no} – ${g.phase||''}</div>
+        <div style="font-size:20px;font-weight:900;letter-spacing:1px">GAME ${g.no} – ${xlPhase(g.phase)||''}</div>
         <button onclick="closeDetail()" style="background:none;border:none;color:var(--dim);font-size:22px;cursor:pointer">✕</button>
       </div>
       <div style="padding:20px">
