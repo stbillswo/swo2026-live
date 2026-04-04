@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-04T07:50:22.867Z",
+  "timestamp": "2026-04-04T07:50:36.428Z",
   "teams": [
     {
       "id": "mnjzol93f1au",
@@ -1641,7 +1641,17 @@
           "awayScore": 2
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "id": "mnk197d7emcc",
+          "period": 1,
+          "time": "4:54",
+          "teamId": "mnjzol94a7p6",
+          "playerId": "mnjzol94fh3h",
+          "minutes": "2",
+          "code": "High Stick"
+        }
+      ],
       "finished": false
     }
   ]
