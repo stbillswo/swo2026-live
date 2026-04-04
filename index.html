@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Swiss Wheely Open 2026 – Live Resultate</title>
+<title>Swiss Wheely Open 2026 – Live Results</title>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 <style>
 :root{
@@ -97,23 +97,23 @@ body{background:var(--bg);color:var(--white);font-family:var(--font);min-height:
     <div class="hero-icon">♿</div>
     <div>
       <div class="hero-title">Swiss Wheely Open 2026</div>
-      <div class="hero-sub">Nottwil &nbsp;·&nbsp; 23.–25. April 2026</div>
+      <div class="hero-sub">Nottwil &nbsp;·&nbsp; April 23–25, 2026</div>
     </div>
   </div>
   <div style="text-align:right;display:flex;flex-direction:column;align-items:flex-end;gap:6px">
     <div class="live-pill" id="live-pill"><span class="live-dot"></span>LIVE
     </div>
-    <div class="update-time" id="update-time">Wird geladen…</div>
+    <div class="update-time" id="update-time">Loading…</div>
   </div>
 </div>
 <div id="tabs">
-  <button class="tab active" onclick="showTab(this,'scores')">SPIELE</button>
-  <button class="tab" onclick="showTab(this,'standings')">TABELLE</button>
-  <button class="tab" onclick="showTab(this,'points')">PUNKTE</button>
-  <button class="tab" onclick="showTab(this,'penalties')">STRAFEN</button>
-  <button class="tab" onclick="showTab(this,'final')">SCHLUSSTABELLE</button>
+  <button class="tab active" onclick="showTab(this,'scores')">GAMES</button>
+  <button class="tab" onclick="showTab(this,'standings')">STANDINGS</button>
+  <button class="tab" onclick="showTab(this,'points')">SCORER</button>
+  <button class="tab" onclick="showTab(this,'penalties')">PENALTIES</button>
+  <button class="tab" onclick="showTab(this,'final')">FINAL RANKING</button>
 </div>
-<div id="content"><div id="loading"><div class="spin">⏳</div><br><br>Wird geladen…</div></div>
+<div id="content"><div id="loading"><div class="spin">⏳</div><br><br>Loading…</div></div>
 <div id="detail-overlay" onclick="if(event.target===this)closeDetail()" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.8);z-index:200;align-items:center;justify-content:center;padding:16px;backdrop-filter:blur(4px)"></div>
 
 <script>
@@ -151,22 +151,22 @@ async function load(){
     // GitHub Pages: direkte URL, schnell, kein Cache-Problem
     const r=await fetch(DATA_URL+'?t='+Date.now(),{cache:'no-store'});
     if(r.status===404){
-      document.getElementById('update-time').textContent='Noch keine Daten vorhanden';
+      document.getElementById('update-time').textContent='No data available yet';
       document.getElementById('live-pill').innerHTML='<span style="opacity:.5">WARTEN</span>';
-      document.getElementById('content').innerHTML='<div class="err" style="border-color:rgba(255,211,42,.3);color:var(--yellow)"><b>Noch keine Daten</b><br><small>Bitte in der Admin-App auf 🌐 Veröffentlichen klicken.</small></div>';
+      document.getElementById('content').innerHTML='<div class="err" style="border-color:rgba(255,211,42,.3);color:var(--yellow)"><b>Noch keine Daten</b><br><small>Please publish from the Admin App.</small></div>';
       return;
     }
     if(!r.ok)throw new Error('HTTP '+r.status+' von '+DATA_URL);
     const d=await r.json();
     db.teams=d.teams||[];db.players=d.players||[];db.games=d.games||[];
     const ts=d.timestamp?new Date(d.timestamp).toLocaleTimeString('de-CH',{hour:'2-digit',minute:'2-digit'}):'?';
-    document.getElementById('update-time').textContent='Stand: '+ts+' · Refresh in '+cd+'s';
+    document.getElementById('update-time').textContent='Last update: '+ts+' · Refresh in '+cd+'s';
     document.getElementById('live-pill').innerHTML='<span class="live-dot"></span>LIVE';
     render();cd=REFRESH;
   }catch(e){
-    document.getElementById('update-time').textContent='⚠ Fehler';
+    document.getElementById('update-time').textContent='⚠ Error';
     document.getElementById('live-pill').textContent='OFFLINE';
-    if(!db.games.length)document.getElementById('content').innerHTML='<div class="err"><b>Fehler beim Laden</b><br><small>'+e.message+'</small><br><small style="color:var(--dim)">'+DATA_URL+'</small></div>';
+    if(!db.games.length)document.getElementById('content').innerHTML='<div class="err"><b>Loading error</b><br><small>'+e.message+'</small><br><small style="color:var(--dim)">'+DATA_URL+'</small></div>';
   }
 }
 
@@ -182,26 +182,26 @@ function render(){
   else el.innerHTML=rFinal();
 }
 
-const PH=['Vorrunde','4. Viertelfinale','3. Viertelfinale','2. Viertelfinale','1. Viertelfinale','4. Halbfinale (Pl. 5–8)','3. Halbfinale (Pl. 5–8)','2. Halbfinale','1. Halbfinale','Spiel um 7. Platz','Spiel um 5. Platz','Spiel um 3. Platz','Finale'];
+const PH=['Group Stage','4. Quarter-Final','3. Quarter-Final','2. Quarter-Final','1. Quarter-Final','4. Semi-Final (Pl. 5–8)','3. Semi-Final (Pl. 5–8)','2. Semi-Final','1. Semi-Final','7th Place Game','5th Place Game','3rd Place Game','Final'];
 
 // Welche Spielnummern müssen beendet sein bevor eine Phase sichtbar wird
 const PHASE_UNLOCK={
-  '4. Viertelfinale':[1,2,3,4,5,6,7,8,9,10,11,12],
-  '3. Viertelfinale':[1,2,3,4,5,6,7,8,9,10,11,12],
-  '2. Viertelfinale':[1,2,3,4,5,6,7,8,9,10,11,12],
-  '1. Viertelfinale':[1,2,3,4,5,6,7,8,9,10,11,12],
-  '4. Halbfinale (Pl. 5–8)':[13,14,15,16],
-  '3. Halbfinale (Pl. 5–8)':[13,14,15,16],
-  '2. Halbfinale':[13,14,15,16],
-  '1. Halbfinale':[13,14,15,16],
-  'Spiel um 7. Platz':[17,18,19,20],
-  'Spiel um 5. Platz':[17,18,19,20],
-  'Spiel um 3. Platz':[17,18,19,20],
-  'Finale':[17,18,19,20],
+  '4. Quarter-Final':[1,2,3,4,5,6,7,8,9,10,11,12],
+  '3. Quarter-Final':[1,2,3,4,5,6,7,8,9,10,11,12],
+  '2. Quarter-Final':[1,2,3,4,5,6,7,8,9,10,11,12],
+  '1. Quarter-Final':[1,2,3,4,5,6,7,8,9,10,11,12],
+  '4. Semi-Final (Pl. 5–8)':[13,14,15,16],
+  '3. Semi-Final (Pl. 5–8)':[13,14,15,16],
+  '2. Semi-Final':[13,14,15,16],
+  '1. Semi-Final':[13,14,15,16],
+  '7th Place Game':[17,18,19,20],
+  '5th Place Game':[17,18,19,20],
+  '3rd Place Game':[17,18,19,20],
+  'Final':[17,18,19,20],
 };
 function phaseUnlocked(ph){
   const required=PHASE_UNLOCK[ph];
-  if(!required)return true; // Vorrunde immer anzeigen
+  if(!required)return true; // Group Stage immer anzeigen
   return required.every(no=>db.games.find(g=>+g.no===no&&g.finished));
 }
 
@@ -214,11 +214,11 @@ function rScores(){
     const cards=gs.map(g=>{
       const tbd=!(g.homeTeamId&&g.awayTeamId);
       const{h,a}=tbd?{h:0,a:0}:score(g);
-      const gst=g.finished?`<span class="s-done">✓ Beendet</span>`
+      const gst=g.finished?`<span class="s-done">✓ Final</span>`
         :g.homeTeamId?`<span class="s-time">${g.time||''}</span><br><span class="s-open">${g.date||''}</span>`
         :`<span class="s-open">TBD</span>`;
       return`<div class="game-card ${g.finished?'done':''} ${tbd?'tbd':''}" onclick="${tbd?'':`showGameDetail('${g.id}')`}">
-        <div class="gmeta"><b>SPIEL ${g.no}</b><br>${g.date||''}<br>${g.group?'Gr.'+g.group:''}</div>
+        <div class="gmeta"><b>SPIEL ${g.no}</b><br>${g.date||''}<br>${g.group?'Gr. '+g.group:''}</div>
         <div class="gteam r">${tbd?`<span style="color:var(--dim);font-size:13px">${ht(g)}</span>`:ht(g)}</div>
         <div class="gscore ${g.finished?'done':''}">${tbd?'<span style="color:var(--dim)">–:–</span>':`${h}<span class="gsep">:</span>${a}`}</div>
         <div class="gteam">${tbd?`<span style="color:var(--dim);font-size:13px">${at(g)}</span>`:at(g)}</div>
@@ -234,10 +234,10 @@ function rStandings(){
   const rg=(s,grp)=>{
     const rows=s.map((x,i)=>{const td=x.gf-x.ga;const tds=td>0?`<span class="tdp">+${td}</span>`:td<0?`<span class="tdn">${td}</span>`:'0';
       return`<tr><td style="color:var(--dim);font-size:12px">${i+1}</td><td>${x.team.name}</td><td>${x.gp}</td><td>${x.gf}:${x.ga}</td><td>${tds}</td><td class="pts">${x.pts}</td></tr>`;}).join('');
-    return`<div class="st-block"><div class="st-head">Gruppe ${grp}</div><table class="st-tbl"><thead><tr><th></th><th>Team</th><th>SP</th><th>T</th><th>TD</th><th>Pkt</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+    return`<div class="st-block"><div class="st-head">Gruppe ${grp}</div><table class="st-tbl"><thead><tr><th></th><th>Team</th><th>GP</th><th>G</th><th>GD</th><th>Pts</th></tr></thead><tbody>${rows}</tbody></table></div>`;
   };
   const sA=st('A'),sB=st('B');
-  if(!sA.length&&!sB.length)return`<p style="color:var(--dim);padding:40px;text-align:center">Noch keine Daten.</p>`;
+  if(!sA.length&&!sB.length)return`<p style="color:var(--dim);padding:40px;text-align:center">No data yet.</p>`;
   return`<div class="standings-grid">${rg(sA,'A')}${rg(sB,'B')}</div>`;
 }
 
@@ -267,7 +267,7 @@ function buildStats(){
 function rPoints(){
   const rows=buildStats().filter(s=>s.pts>0||s.g>0)
     .sort((a,b)=>b.pts-a.pts||b.g-a.g||b.a-a.a);
-  if(!rows.length)return`<p style="color:var(--dim);padding:40px;text-align:center">Noch keine Tore.</p>`;
+  if(!rows.length)return`<p style="color:var(--dim);padding:40px;text-align:center">No goals scored yet.</p>`;
   let rank=1;
   const rs=rows.map((s,i)=>{
     if(i>0){const p=rows[i-1];if(s.pts!==p.pts||s.g!==p.g||s.a!==p.a)rank=i+1;}
@@ -283,15 +283,15 @@ function rPoints(){
   }).join('');
   return`<div class="stats-wrap"><table class="stats-tbl">
     <thead><tr><th>Rang</th><th>Nr.</th><th>Spieler</th><th>Team</th>
-    <th style="text-align:center">Tore</th>
+    <th style="text-align:center">Goals</th>
     <th style="text-align:center">Assists</th>
-    <th style="text-align:center">Punkte</th></tr></thead>
+    <th style="text-align:center">Points</th></tr></thead>
     <tbody>${rs}</tbody>
   </table></div>`;
 }
 function rPenalties(){
   const rows=buildStats().filter(s=>s.pim>0).sort((a,b)=>b.pim-a.pim);
-  if(!rows.length)return`<p style="color:var(--dim);padding:40px;text-align:center">Noch keine Strafminuten.</p>`;
+  if(!rows.length)return`<p style="color:var(--dim);padding:40px;text-align:center">No penalties yet.</p>`;
   let rank=1;
   const rs=rows.map((s,i)=>{
     if(i>0&&s.pim!==rows[i-1].pim)rank=i+1;
@@ -305,7 +305,7 @@ function rPenalties(){
   }).join('');
   return`<div class="stats-wrap"><table class="stats-tbl">
     <thead><tr><th>Rang</th><th>Nr.</th><th>Spieler</th><th>Team</th>
-    <th style="text-align:center">Strafminuten</th></tr></thead>
+    <th style="text-align:center">Penalty Minutes</th></tr></thead>
     <tbody>${rs}</tbody>
   </table></div>`;
 }
@@ -313,7 +313,7 @@ function rPenalties(){
 function rPoints(){
   const rows=buildStats().filter(s=>s.pts>0||s.g>0||s.a>0)
     .sort((a,b)=>b.pts-a.pts||b.g-a.g||b.a-a.a);
-  if(!rows.length)return`<p style="color:var(--dim);padding:40px;text-align:center">Noch keine Tore.</p>`;
+  if(!rows.length)return`<p style="color:var(--dim);padding:40px;text-align:center">No goals scored yet.</p>`;
   // Rang berechnen: gleicher Rang bei gleichen Pts, Tore UND Assists
   let rank=1;
   const rs=rows.map((s,i)=>{
@@ -339,7 +339,7 @@ function rPoints(){
 function rPenalties(){
   const rows=buildStats().filter(s=>s.pim>0)
     .sort((a,b)=>b.pim-a.pim);
-  if(!rows.length)return`<p style="color:var(--dim);padding:40px;text-align:center">Noch keine Strafminuten.</p>`;
+  if(!rows.length)return`<p style="color:var(--dim);padding:40px;text-align:center">No penalties yet.</p>`;
   let rank=1;
   const rs=rows.map((s,i)=>{
     if(i>0&&s.pim!==rows[i-1].pim)rank=i+1;
@@ -353,7 +353,7 @@ function rPenalties(){
   }).join('');
   return`<div class="stats-wrap"><table class="stats-tbl">
     <thead><tr><th>Rang</th><th>Nr.</th><th>Spieler</th><th>Team</th>
-    <th style="text-align:center">Strafminuten</th></tr></thead>
+    <th style="text-align:center">Penalty Minutes</th></tr></thead>
     <tbody>${rs}</tbody>
   </table></div>`;
 }
@@ -363,8 +363,8 @@ function rFinal(){
   const win=no=>{const g=gn(no);if(!g?.finished||!g.homeTeamId||!g.awayTeamId)return null;const{h,a}=score(g);return h>a?g.homeTeamId:a>h?g.awayTeamId:null;};
   const los=no=>{const g=gn(no);if(!g?.finished||!g.homeTeamId||!g.awayTeamId)return null;const{h,a}=score(g);return h>a?g.awayTeamId:a>h?g.homeTeamId:null;};
   const pl=[{r:'🥇',c:'var(--yellow)',id:win(24)},{r:'🥈',c:'#b0b8c8',id:los(24)},{r:'🥉',c:'#cd7f32',id:win(23)},{r:'4.',c:'var(--dim)',id:los(23)},{r:'5.',c:'var(--dim)',id:win(22)},{r:'6.',c:'var(--dim)',id:los(22)},{r:'7.',c:'var(--dim)',id:win(21)},{r:'8.',c:'var(--dim)',id:los(21)}];
-  const rows=pl.map(p=>{const t=p.id?byId(p.id):null;return`<div class="final-row"><div class="frank" style="color:${p.c}">${p.r}</div>${t?`<div class="fteam">${t.name}</div><span class="ftag">${t.code}</span>`:`<div class="fteam fpend">— ausstehend</div>`}</div>`;}).join('');
-  return`<div class="final-wrap"><div class="final-head">🏆 Schlusstabelle SWO 2026</div>${rows}</div>`;
+  const rows=pl.map(p=>{const t=p.id?byId(p.id):null;return`<div class="final-row"><div class="frank" style="color:${p.c}">${p.r}</div>${t?`<div class="fteam">${t.name}</div><span class="ftag">${t.code}</span>`:`<div class="fteam fpend">— pending</div>`}</div>`;}).join('');
+  return`<div class="final-wrap"><div class="final-head">🏆 Final Ranking SWO 2026</div>${rows}</div>`;
 }
 
 
