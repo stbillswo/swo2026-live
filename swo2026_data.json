@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-04T08:06:15.874Z",
+  "timestamp": "2026-04-04T08:06:29.745Z",
   "teams": [
     {
       "id": "mnjzol93f1au",
@@ -1518,6 +1518,15 @@
         }
       ],
       "penalties": [
+        {
+          "id": "mnk1tmy8ojzt",
+          "period": 1,
+          "time": "12:54",
+          "teamId": "mnjzol94q4i5",
+          "playerId": "mnjzol94731o",
+          "minutes": "10",
+          "code": "Game Misconduct (10 min)"
+        },
         {
           "id": "mnk1tc8w9pt2",
           "period": 3,
