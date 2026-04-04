@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-04T07:34:35.037Z",
+  "timestamp": "2026-04-04T07:35:04.574Z",
   "teams": [
     {
       "id": "mnjzol93f1au",
@@ -982,7 +982,18 @@
       "awayTeamId": "mnjzol94q4i5",
       "homeLabel": null,
       "awayLabel": null,
-      "goals": [],
+      "goals": [
+        {
+          "id": "mnk0p8cdfyed",
+          "period": 1,
+          "time": "1:00",
+          "teamId": "mnjzol94q4i5",
+          "scorerId": "mnjzol94fuoc",
+          "assistId": "mnjzol948ee0",
+          "homeScore": 0,
+          "awayScore": 1
+        }
+      ],
       "penalties": [],
       "finished": false
     },
