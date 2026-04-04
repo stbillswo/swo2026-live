@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-04T07:46:03.777Z",
+  "timestamp": "2026-04-04T07:46:20.817Z",
   "teams": [
     {
       "id": "mnjzol93f1au",
@@ -1543,7 +1543,17 @@
           "awayScore": 0
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "id": "mnk13q4w3u8e",
+          "period": 2,
+          "time": "02:45",
+          "teamId": "mnjzol94x3d8",
+          "playerId": "mnjzol94smzf",
+          "minutes": "2",
+          "code": "Interference"
+        }
+      ],
       "finished": false
     },
     {
