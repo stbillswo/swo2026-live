@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-04T07:37:28.440Z",
+  "timestamp": "2026-04-04T07:38:40.696Z",
   "teams": [
     {
       "id": "mnjzol93f1au",
@@ -1036,16 +1036,6 @@
       "awayLabel": null,
       "goals": [
         {
-          "id": "mnjzp8n49t29",
-          "period": 1,
-          "time": "1:25",
-          "teamId": "mnjzol93f1au",
-          "scorerId": "mnjzol94w8a3",
-          "assistId": "mnjzol943edd",
-          "homeScore": 0,
-          "awayScore": 1
-        },
-        {
           "id": "mnk0a8fduqzj",
           "period": 1,
           "time": "2:54",
@@ -1053,7 +1043,7 @@
           "scorerId": "mnjzol94euiz",
           "assistId": "mnjzol93jp1v",
           "homeScore": 0,
-          "awayScore": 2
+          "awayScore": 1
         }
       ],
       "penalties": [
@@ -1225,7 +1215,18 @@
       "awayTeamId": "mnjzol94x3d8",
       "homeLabel": null,
       "awayLabel": null,
-      "goals": [],
+      "goals": [
+        {
+          "id": "mnk0tv3rfint",
+          "period": 1,
+          "time": "5:44",
+          "teamId": "mnjzol943mqp",
+          "scorerId": "mnjzol94dm7c",
+          "assistId": "mnjzol94dqbl",
+          "homeScore": 1,
+          "awayScore": 0
+        }
+      ],
       "penalties": [],
       "finished": false
     },
