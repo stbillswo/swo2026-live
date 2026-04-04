@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-04T07:05:57.945Z",
+  "timestamp": "2026-04-04T07:06:06.547Z",
   "teams": [
     {
       "id": "mnjv4uoloag9",
@@ -1014,7 +1014,7 @@
       "awayLabel": null,
       "goals": [],
       "penalties": [],
-      "finished": true
+      "finished": false
     },
     {
       "id": "mnjv57oyc6ih",
