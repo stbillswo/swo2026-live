@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-05T08:47:29.128Z",
+  "timestamp": "2026-04-05T12:09:03.906Z",
   "teams": [
     {
       "id": "mnlg54lswg5k",
@@ -755,7 +755,7 @@
     },
     {
       "id": "mnlg54lskbzj",
-      "no": "10",
+      "no": "11",
       "name": "Robert Isaksson",
       "teamId": "mnlg54lstpff",
       "isStaff": false,
@@ -977,6 +977,15 @@
       "isStaff": true,
       "staffFunction": "Physio",
       "role": null
+    },
+    {
+      "id": "mnlpwz9r76nb",
+      "no": "10",
+      "name": "Robin Roos",
+      "teamId": "mnlg54lstpff",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
     }
   ],
   "games": []
