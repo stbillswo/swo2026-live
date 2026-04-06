@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-06T08:28:05.896Z",
+  "timestamp": "2026-04-06T08:28:08.251Z",
   "teams": [
     {
       "id": "mnlg54lswg5k",
@@ -1109,7 +1109,7 @@
           "code": "Slashing"
         }
       ],
-      "finished": false
+      "finished": true
     },
     {
       "id": "mnlpylat5y5t",
