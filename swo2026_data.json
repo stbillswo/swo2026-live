@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-06T08:30:24.525Z",
+  "timestamp": "2026-04-06T08:30:26.047Z",
   "teams": [
     {
       "id": "mnlg54lswg5k",
@@ -1195,7 +1195,7 @@
           "code": "High Stick"
         }
       ],
-      "finished": false
+      "finished": true
     },
     {
       "id": "mnlpylatnf0g",
