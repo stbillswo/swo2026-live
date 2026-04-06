@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-06T08:17:59.302Z",
+  "timestamp": "2026-04-06T08:18:14.287Z",
   "teams": [
     {
       "id": "mnlg54lswg5k",
@@ -1032,7 +1032,17 @@
           "awayScore": 2
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "id": "mnmx4fwu6bb6",
+          "period": 2,
+          "time": "7:15",
+          "teamId": "mnlg54lsnz1x",
+          "playerId": "mnlg54lsf2xj",
+          "minutes": "2",
+          "code": "Interference"
+        }
+      ],
       "finished": false
     },
     {
