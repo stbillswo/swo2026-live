@@ -1,50 +1,50 @@
 {
-  "timestamp": "2026-04-11T12:19:53.964Z",
+  "timestamp": "2026-04-14T13:40:46.190Z",
   "teams": [
     {
-      "id": "mnuaxc6xtouy",
+      "id": "mnyo5179sqxo",
       "name": "Team Suisse",
       "code": "SUI",
       "group": "A"
     },
     {
-      "id": "mnuaxc6xp39p",
+      "id": "mnyo517a35iy",
       "name": "USA Wheelchair Floorball",
       "code": "USA",
       "group": "A"
     },
     {
-      "id": "mnuaxc6xnwuo",
+      "id": "mnyo517ai732",
       "name": "Belgium GIDOS",
       "code": "BEL",
       "group": "B"
     },
     {
-      "id": "mnuaxc6x14ei",
+      "id": "mnyo517aer6t",
       "name": "Czech Republic",
       "code": "CZE",
       "group": "A"
     },
     {
-      "id": "mnuaxc6xxjuc",
+      "id": "mnyo517akq4v",
       "name": "The Netherlands",
       "code": "NED",
       "group": "B"
     },
     {
-      "id": "mnuaxc6xitc2",
+      "id": "mnyo517akiws",
       "name": "Canada",
       "code": "CAN",
       "group": "A"
     },
     {
-      "id": "mnuaxc6xxix2",
+      "id": "mnyo517afnzw",
       "name": "Sweden",
       "code": "SWE",
       "group": "B"
     },
     {
-      "id": "mnuaxc6xl5vt",
+      "id": "mnyo517aivzp",
       "name": "France",
       "code": "FRA",
       "group": "B"
@@ -52,901 +52,919 @@
   ],
   "players": [
     {
-      "id": "mnuaxc6xsawg",
+      "id": "mnyo51797crk",
       "no": "3",
       "name": "Urs Kläger",
-      "teamId": "mnuaxc6xtouy",
+      "teamId": "mnyo5179sqxo",
       "isStaff": false,
       "role": "G",
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6x4kgk",
+      "id": "mnyo5179bbs5",
       "no": "5",
       "name": "Mario Grab",
-      "teamId": "mnuaxc6xtouy",
+      "teamId": "mnyo5179sqxo",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xyil6",
+      "id": "mnyo5179woxc",
       "no": "7",
       "name": "Ken Gruber",
-      "teamId": "mnuaxc6xtouy",
+      "teamId": "mnyo5179sqxo",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xjcro",
+      "id": "mnyo5179wmfm",
       "no": "9",
       "name": "Fabian Schmid",
-      "teamId": "mnuaxc6xtouy",
+      "teamId": "mnyo5179sqxo",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xifvb",
+      "id": "mnyo5179em12",
       "no": "10",
       "name": "Stefan Bill",
-      "teamId": "mnuaxc6xtouy",
+      "teamId": "mnyo5179sqxo",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xuo0y",
+      "id": "mnyo5179qjon",
       "no": "11",
       "name": "Remo Truniger",
-      "teamId": "mnuaxc6xtouy",
+      "teamId": "mnyo5179sqxo",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xsr84",
+      "id": "mnyo5179tqd1",
       "no": "15",
       "name": "Benjamin Scheiwiller",
-      "teamId": "mnuaxc6xtouy",
+      "teamId": "mnyo5179sqxo",
       "isStaff": false,
       "role": "G",
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xu3pf",
+      "id": "mnyo5179jxq4",
       "no": "17",
       "name": "Stefano Costa",
-      "teamId": "mnuaxc6xtouy",
+      "teamId": "mnyo5179sqxo",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xzigs",
+      "id": "mnyo5179zscw",
       "no": "19",
       "name": "Nick Wehrli",
-      "teamId": "mnuaxc6xtouy",
+      "teamId": "mnyo5179sqxo",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6x21qx",
+      "id": "mnyo5179goww",
       "no": "20",
       "name": "Fabio Rosa",
-      "teamId": "mnuaxc6xtouy",
+      "teamId": "mnyo5179sqxo",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6x1o7o",
+      "id": "mnyo5179vn9z",
       "no": "21",
       "name": "Giorgio Dal Monte",
-      "teamId": "mnuaxc6xtouy",
+      "teamId": "mnyo5179sqxo",
       "isStaff": false,
       "role": "C",
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xipcw",
+      "id": "mnyo5179olim",
       "no": "22",
       "name": "Sarina Böhi",
-      "teamId": "mnuaxc6xtouy",
+      "teamId": "mnyo5179sqxo",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xdvip",
+      "id": "mnyo5179oz0j",
       "no": null,
       "name": "Hanspeter Matzinger",
-      "teamId": "mnuaxc6xtouy",
+      "teamId": "mnyo5179sqxo",
       "isStaff": true,
       "staffFunction": "Coach",
       "role": null
     },
     {
-      "id": "mnuaxc6xxc5t",
+      "id": "mnyo5179q5im",
       "no": null,
       "name": "Alfred Rickenbach",
-      "teamId": "mnuaxc6xtouy",
+      "teamId": "mnyo5179sqxo",
       "isStaff": true,
       "staffFunction": "Coach",
       "role": null
     },
     {
-      "id": "mnuaxc6x3xn3",
+      "id": "mnyo517ayb9i",
       "no": "00",
       "name": "Dan Hoolsema",
-      "teamId": "mnuaxc6xp39p",
+      "teamId": "mnyo517a35iy",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xedwj",
+      "id": "mnyo517a53pf",
+      "no": "4",
+      "name": "Brent Severance",
+      "teamId": "mnyo517a35iy",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnyo517akeqo",
+      "no": "7",
+      "name": "Mitchell Vaske",
+      "teamId": "mnyo517a35iy",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnyo517a960c",
       "no": "8",
       "name": "Matt Nagy",
-      "teamId": "mnuaxc6xp39p",
+      "teamId": "mnyo517a35iy",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xwr46",
+      "id": "mnyo517a5ghw",
       "no": "9",
       "name": "Eddie Elinburg",
-      "teamId": "mnuaxc6xp39p",
+      "teamId": "mnyo517a35iy",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xofxn",
+      "id": "mnyo517anwua",
       "no": "10",
       "name": "Piotr Pasik",
-      "teamId": "mnuaxc6xp39p",
+      "teamId": "mnyo517a35iy",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xizb2",
+      "id": "mnyo517akkbk",
       "no": "11",
       "name": "Kennedy Williams",
-      "teamId": "mnuaxc6xp39p",
+      "teamId": "mnyo517a35iy",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6x86cu",
+      "id": "mnyo517abu5o",
       "no": "12",
       "name": "Hamdy Nassor",
-      "teamId": "mnuaxc6xp39p",
+      "teamId": "mnyo517a35iy",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xag1m",
+      "id": "mnyo517awsfo",
       "no": "22",
       "name": "Selah Clinger",
-      "teamId": "mnuaxc6xp39p",
+      "teamId": "mnyo517a35iy",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xvqyj",
+      "id": "mnyo517aa60u",
       "no": "23",
       "name": "Kevin Konfara",
-      "teamId": "mnuaxc6xp39p",
-      "isStaff": false,
-      "role": null,
-      "staffFunction": null
-    },
-    {
-      "id": "mnuaxc6x1anu",
-      "no": "24",
-      "name": "Ethan Lockhart",
-      "teamId": "mnuaxc6xp39p",
-      "isStaff": false,
-      "role": null,
-      "staffFunction": null
-    },
-    {
-      "id": "mnuaxc6x5q7b",
-      "no": "43",
-      "name": "Logan McGivern",
-      "teamId": "mnuaxc6xp39p",
-      "isStaff": false,
-      "role": null,
-      "staffFunction": null
-    },
-    {
-      "id": "mnuaxc6xjacq",
-      "no": "4",
-      "name": "Yori Decuypere",
-      "teamId": "mnuaxc6xnwuo",
-      "isStaff": false,
-      "role": null,
-      "staffFunction": null
-    },
-    {
-      "id": "mnuaxc6xugkp",
-      "no": "6",
-      "name": "Denise Van Engelsdorp G.",
-      "teamId": "mnuaxc6xnwuo",
-      "isStaff": false,
-      "role": null,
-      "staffFunction": null
-    },
-    {
-      "id": "mnuaxc6xgcsp",
-      "no": "7",
-      "name": "Dimitri Vanslembrouck",
-      "teamId": "mnuaxc6xnwuo",
-      "isStaff": false,
-      "role": null,
-      "staffFunction": null
-    },
-    {
-      "id": "mnuaxc6x6rbs",
-      "no": "8",
-      "name": "Soilin Rioza",
-      "teamId": "mnuaxc6xnwuo",
-      "isStaff": false,
-      "role": null,
-      "staffFunction": null
-    },
-    {
-      "id": "mnuaxc6xm6mf",
-      "no": "14",
-      "name": "Yordi Maagdenberg",
-      "teamId": "mnuaxc6xnwuo",
-      "isStaff": false,
-      "role": null,
-      "staffFunction": null
-    },
-    {
-      "id": "mnuaxc6xqd7l",
-      "no": "21",
-      "name": "Brecht Vancauwnberghe",
-      "teamId": "mnuaxc6xnwuo",
-      "isStaff": false,
-      "role": null,
-      "staffFunction": null
-    },
-    {
-      "id": "mnuaxc6xm32o",
-      "no": "23",
-      "name": "Michael De Ruytere",
-      "teamId": "mnuaxc6xnwuo",
-      "isStaff": false,
-      "role": null,
-      "staffFunction": null
-    },
-    {
-      "id": "mnuaxc6x8oae",
-      "no": "6",
-      "name": "Jan Hamák",
-      "teamId": "mnuaxc6x14ei",
-      "isStaff": false,
-      "role": null,
-      "staffFunction": null
-    },
-    {
-      "id": "mnuaxc6xcixg",
-      "no": "9",
-      "name": "Miroslav Bárta",
-      "teamId": "mnuaxc6x14ei",
-      "isStaff": false,
-      "role": null,
-      "staffFunction": null
-    },
-    {
-      "id": "mnuaxc6xvf7s",
-      "no": "10",
-      "name": "Miroslav Večeřa",
-      "teamId": "mnuaxc6x14ei",
-      "isStaff": false,
-      "role": null,
-      "staffFunction": null
-    },
-    {
-      "id": "mnuaxc6xtyy5",
-      "no": "11",
-      "name": "David Průša",
-      "teamId": "mnuaxc6x14ei",
-      "isStaff": false,
-      "role": "G",
-      "staffFunction": null
-    },
-    {
-      "id": "mnuaxc6x2l1s",
-      "no": "13",
-      "name": "Jan Mrázek",
-      "teamId": "mnuaxc6x14ei",
-      "isStaff": false,
-      "role": null,
-      "staffFunction": null
-    },
-    {
-      "id": "mnuaxc6xtqfn",
-      "no": "17",
-      "name": "Jaroslav Jäger",
-      "teamId": "mnuaxc6x14ei",
-      "isStaff": false,
-      "role": null,
-      "staffFunction": null
-    },
-    {
-      "id": "mnuaxc6xrgc8",
-      "no": "23",
-      "name": "Zuzana Přibilová",
-      "teamId": "mnuaxc6x14ei",
-      "isStaff": false,
-      "role": null,
-      "staffFunction": null
-    },
-    {
-      "id": "mnuaxc6x40st",
-      "no": "36",
-      "name": "Martin Gros",
-      "teamId": "mnuaxc6x14ei",
-      "isStaff": false,
-      "role": null,
-      "staffFunction": null
-    },
-    {
-      "id": "mnuaxc6xh2lv",
-      "no": "74",
-      "name": "Bohuslav Dvořák",
-      "teamId": "mnuaxc6x14ei",
-      "isStaff": false,
-      "role": null,
-      "staffFunction": null
-    },
-    {
-      "id": "mnuaxc6x91zq",
-      "no": "88",
-      "name": "Jaroslav Novotný",
-      "teamId": "mnuaxc6x14ei",
-      "isStaff": false,
-      "role": "G",
-      "staffFunction": null
-    },
-    {
-      "id": "mnuaxc6xyxpn",
-      "no": "93",
-      "name": "Jiří Valeš",
-      "teamId": "mnuaxc6x14ei",
-      "isStaff": false,
-      "role": null,
-      "staffFunction": null
-    },
-    {
-      "id": "mnuaxc6xgiqb",
-      "no": "96",
-      "name": "Zdeněk Krupička",
-      "teamId": "mnuaxc6x14ei",
+      "teamId": "mnyo517a35iy",
       "isStaff": false,
       "role": "C",
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xh5lc",
+      "id": "mnyo517an7ur",
+      "no": "24",
+      "name": "Ethan Lockhart",
+      "teamId": "mnyo517a35iy",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnyo517a141w",
+      "no": "43",
+      "name": "Logan McGivern",
+      "teamId": "mnyo517a35iy",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnyo517a29ja",
+      "no": "4",
+      "name": "Yori Decuypere",
+      "teamId": "mnyo517ai732",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnyo517aac61",
+      "no": "6",
+      "name": "Denise Van Engelsdorp G.",
+      "teamId": "mnyo517ai732",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnyo517adm2y",
+      "no": "7",
+      "name": "Dimitri Vanslembrouck",
+      "teamId": "mnyo517ai732",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnyo517abaon",
+      "no": "8",
+      "name": "Soilin Rioza",
+      "teamId": "mnyo517ai732",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnyo517a9bn9",
+      "no": "14",
+      "name": "Yordi Maagdenberg",
+      "teamId": "mnyo517ai732",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnyo517a53xb",
+      "no": "21",
+      "name": "Brecht Vancauwnberghe",
+      "teamId": "mnyo517ai732",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnyo517au2dl",
+      "no": "23",
+      "name": "Michael De Ruytere",
+      "teamId": "mnyo517ai732",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnyo517aoj8l",
+      "no": "6",
+      "name": "Jan Hamák",
+      "teamId": "mnyo517aer6t",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnyo517aebw0",
+      "no": "9",
+      "name": "Miroslav Bárta",
+      "teamId": "mnyo517aer6t",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnyo517audjf",
+      "no": "10",
+      "name": "Miroslav Večeřa",
+      "teamId": "mnyo517aer6t",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnyo517asy1w",
+      "no": "11",
+      "name": "David Průša",
+      "teamId": "mnyo517aer6t",
+      "isStaff": false,
+      "role": "G",
+      "staffFunction": null
+    },
+    {
+      "id": "mnyo517ax9ia",
+      "no": "13",
+      "name": "Jan Mrázek",
+      "teamId": "mnyo517aer6t",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnyo517a68dv",
+      "no": "17",
+      "name": "Jaroslav Jäger",
+      "teamId": "mnyo517aer6t",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnyo517a7gi6",
+      "no": "22",
+      "name": "Radomír Vaněk",
+      "teamId": "mnyo517aer6t",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnyo517avlbs",
+      "no": "23",
+      "name": "Zuzana Přibilová",
+      "teamId": "mnyo517aer6t",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnyo517a8ut6",
+      "no": "74",
+      "name": "Bohuslav Dvořák",
+      "teamId": "mnyo517aer6t",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnyo517ag4i6",
+      "no": "88",
+      "name": "Jaroslav Novotný",
+      "teamId": "mnyo517aer6t",
+      "isStaff": false,
+      "role": "G",
+      "staffFunction": null
+    },
+    {
+      "id": "mnyo517aquf5",
+      "no": "93",
+      "name": "Jiří Valeš",
+      "teamId": "mnyo517aer6t",
+      "isStaff": false,
+      "role": null,
+      "staffFunction": null
+    },
+    {
+      "id": "mnyo517ao0s9",
+      "no": "96",
+      "name": "Zdeněk Krupička",
+      "teamId": "mnyo517aer6t",
+      "isStaff": false,
+      "role": "C",
+      "staffFunction": null
+    },
+    {
+      "id": "mnyo517akl0c",
       "no": null,
       "name": "Vladimír Mařík",
-      "teamId": "mnuaxc6x14ei",
+      "teamId": "mnyo517aer6t",
       "isStaff": true,
       "staffFunction": "Head coach",
       "role": null
     },
     {
-      "id": "mnuaxc6xkqc1",
+      "id": "mnyo517a48io",
       "no": null,
       "name": "Tomáš Pek",
-      "teamId": "mnuaxc6x14ei",
+      "teamId": "mnyo517aer6t",
       "isStaff": true,
       "staffFunction": "Assist. Coach",
       "role": null
     },
     {
-      "id": "mnuaxc6xvv5g",
+      "id": "mnyo517ap3nw",
       "no": null,
       "name": "Dominika Staščíková",
-      "teamId": "mnuaxc6x14ei",
+      "teamId": "mnyo517aer6t",
       "isStaff": true,
       "staffFunction": "Manager",
       "role": null
     },
     {
-      "id": "mnuaxc6xo8z9",
+      "id": "mnyo517a2686",
       "no": null,
       "name": "Karel Jakubál",
-      "teamId": "mnuaxc6x14ei",
+      "teamId": "mnyo517aer6t",
       "isStaff": true,
       "staffFunction": "Physio",
       "role": null
     },
     {
-      "id": "mnuaxc6x1gfv",
+      "id": "mnyo517affqv",
       "no": null,
       "name": "Lukáš Novák",
-      "teamId": "mnuaxc6x14ei",
+      "teamId": "mnyo517aer6t",
       "isStaff": true,
       "staffFunction": "Physio",
       "role": null
     },
     {
-      "id": "mnuaxc6x2wgk",
+      "id": "mnyo517ar1q9",
       "no": "1",
       "name": "Nienke Conijn",
-      "teamId": "mnuaxc6xxjuc",
+      "teamId": "mnyo517akq4v",
       "isStaff": false,
       "role": "C/G",
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xdneo",
+      "id": "mnyo517aeld2",
       "no": "3",
       "name": "Ernst Vermaas",
-      "teamId": "mnuaxc6xxjuc",
+      "teamId": "mnyo517akq4v",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6x28w0",
+      "id": "mnyo517aey2m",
       "no": "4",
       "name": "Nick Kuijk",
-      "teamId": "mnuaxc6xxjuc",
+      "teamId": "mnyo517akq4v",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xazmb",
+      "id": "mnyo517aryfe",
       "no": "5",
       "name": "Mitchel Pol",
-      "teamId": "mnuaxc6xxjuc",
+      "teamId": "mnyo517akq4v",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xg2lr",
+      "id": "mnyo517a5u3q",
       "no": "7",
       "name": "Tom Roerink",
-      "teamId": "mnuaxc6xxjuc",
+      "teamId": "mnyo517akq4v",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6x5ocq",
+      "id": "mnyo517a3zhk",
       "no": "8",
       "name": "Joris van Erven",
-      "teamId": "mnuaxc6xxjuc",
+      "teamId": "mnyo517akq4v",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6x2bi9",
+      "id": "mnyo517ah29m",
       "no": "9",
       "name": "Rogier Croes",
-      "teamId": "mnuaxc6xxjuc",
+      "teamId": "mnyo517akq4v",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6x4mt1",
-      "no": "10",
-      "name": "Rafaelle Orru",
-      "teamId": "mnuaxc6xxjuc",
+      "id": "mnyo517a1btw",
+      "no": "22",
+      "name": "Stan Hoogendijk",
+      "teamId": "mnyo517akq4v",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xfqom",
+      "id": "mnyo517ammen",
       "no": "18",
       "name": "Bas Akkerman",
-      "teamId": "mnuaxc6xxjuc",
+      "teamId": "mnyo517akq4v",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xyimo",
-      "no": "26",
+      "id": "mnyo517a0njt",
+      "no": "13",
       "name": "Berri van Manen",
-      "teamId": "mnuaxc6xxjuc",
+      "teamId": "mnyo517akq4v",
       "isStaff": false,
       "role": "G",
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xnrd7",
+      "id": "mnyo517aybif",
       "no": null,
       "name": "Shiraz Bandoe",
-      "teamId": "mnuaxc6xxjuc",
+      "teamId": "mnyo517akq4v",
       "isStaff": true,
       "staffFunction": "Coach",
       "role": null
     },
     {
-      "id": "mnuaxc6x3eom",
+      "id": "mnyo517ar296",
       "no": null,
       "name": "Pascal van Dongen",
-      "teamId": "mnuaxc6xxjuc",
+      "teamId": "mnyo517akq4v",
       "isStaff": true,
       "staffFunction": "Coach",
       "role": null
     },
     {
-      "id": "mnuaxc6xa92m",
+      "id": "mnyo517ah0h0",
       "no": null,
       "name": "Ernst Bakker",
-      "teamId": "mnuaxc6xxjuc",
+      "teamId": "mnyo517akq4v",
       "isStaff": true,
       "staffFunction": "Manager",
       "role": null
     },
     {
-      "id": "mnuaxc6x7nuq",
+      "id": "mnyo517awpof",
       "no": "6",
       "name": "Quin Gieni",
-      "teamId": "mnuaxc6xitc2",
+      "teamId": "mnyo517akiws",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6x0d53",
+      "id": "mnyo517a7c2m",
       "no": "12",
       "name": "Kyle Gieni",
-      "teamId": "mnuaxc6xitc2",
+      "teamId": "mnyo517akiws",
       "isStaff": false,
       "role": "C",
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xwb6v",
+      "id": "mnyo517ahvd9",
       "no": "22",
       "name": "Peggy Assinck",
-      "teamId": "mnuaxc6xitc2",
+      "teamId": "mnyo517akiws",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xdp2l",
+      "id": "mnyo517aekzf",
       "no": "24",
       "name": "Shaun Mills",
-      "teamId": "mnuaxc6xitc2",
+      "teamId": "mnyo517akiws",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xfvah",
+      "id": "mnyo517alr6j",
       "no": "59",
       "name": "Manny Sanghera",
-      "teamId": "mnuaxc6xitc2",
+      "teamId": "mnyo517akiws",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xmps6",
+      "id": "mnyo517aucok",
       "no": "74",
       "name": "Suki Sanghera",
-      "teamId": "mnuaxc6xitc2",
+      "teamId": "mnyo517akiws",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xfvme",
+      "id": "mnyo517aif5k",
       "no": null,
       "name": "Shirley Giofu",
-      "teamId": "mnuaxc6xitc2",
+      "teamId": "mnyo517akiws",
       "isStaff": true,
       "staffFunction": "Staff",
       "role": null
     },
     {
-      "id": "mnuaxc6xyuki",
+      "id": "mnyo517avfv1",
       "no": null,
       "name": "Jeremy Mills",
-      "teamId": "mnuaxc6xitc2",
+      "teamId": "mnyo517akiws",
       "isStaff": true,
       "staffFunction": "Staff",
       "role": null
     },
     {
-      "id": "mnuaxc6xmriv",
+      "id": "mnyo517a2kds",
       "no": null,
       "name": "Marisa Xu",
-      "teamId": "mnuaxc6xitc2",
+      "teamId": "mnyo517akiws",
       "isStaff": true,
       "staffFunction": "Staff",
       "role": null
     },
     {
-      "id": "mnuaxc6x5307",
+      "id": "mnyo517agfvg",
       "no": null,
       "name": "Kurt Gieni",
-      "teamId": "mnuaxc6xitc2",
+      "teamId": "mnyo517akiws",
       "isStaff": true,
       "staffFunction": "Staff",
       "role": null
     },
     {
-      "id": "mnuaxc6xhky0",
+      "id": "mnyo517an3b4",
       "no": "1",
       "name": "Sten Almlöf",
-      "teamId": "mnuaxc6xxix2",
+      "teamId": "mnyo517afnzw",
       "isStaff": false,
       "role": "G",
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xr38h",
+      "id": "mnyo517aofiy",
       "no": "3",
       "name": "Victor Piccardo",
-      "teamId": "mnuaxc6xxix2",
+      "teamId": "mnyo517afnzw",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xw4qc",
+      "id": "mnyo517act2p",
       "no": "5",
       "name": "Mattias Larsson",
-      "teamId": "mnuaxc6xxix2",
+      "teamId": "mnyo517afnzw",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xca9i",
+      "id": "mnyo517a1beb",
       "no": "7",
       "name": "Alexander Brorsson",
-      "teamId": "mnuaxc6xxix2",
+      "teamId": "mnyo517afnzw",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xfze0",
+      "id": "mnyo517at2j6",
       "no": "9",
       "name": "Johnny Pettersson",
-      "teamId": "mnuaxc6xxix2",
+      "teamId": "mnyo517afnzw",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xleey",
+      "id": "mnyo517ad6rv",
       "no": "10",
       "name": "Robert Isaksson",
-      "teamId": "mnuaxc6xxix2",
+      "teamId": "mnyo517afnzw",
       "isStaff": false,
       "role": "C",
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xmon7",
+      "id": "mnyo517anj8n",
       "no": "12",
       "name": "Roger Eriksson",
-      "teamId": "mnuaxc6xxix2",
+      "teamId": "mnyo517afnzw",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6x80kl",
+      "id": "mnyo517a1rjr",
       "no": "14",
       "name": "Axel Eriksson",
-      "teamId": "mnuaxc6xxix2",
+      "teamId": "mnyo517afnzw",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xh3ay",
+      "id": "mnyo517appii",
       "no": "17",
       "name": "Alexander Karlsson",
-      "teamId": "mnuaxc6xxix2",
+      "teamId": "mnyo517afnzw",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xmasp",
+      "id": "mnyo517a5eo6",
       "no": "92",
       "name": "Kalle Toft",
-      "teamId": "mnuaxc6xxix2",
+      "teamId": "mnyo517afnzw",
       "isStaff": false,
       "role": "G",
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xk29h",
+      "id": "mnyo517auwsi",
       "no": null,
       "name": "Ola Piccardo",
-      "teamId": "mnuaxc6xxix2",
+      "teamId": "mnyo517afnzw",
       "isStaff": true,
       "staffFunction": "Coach",
       "role": null
     },
     {
-      "id": "mnuaxc6x2nqk",
+      "id": "mnyo517abbrf",
       "no": null,
       "name": "Mats Rylander",
-      "teamId": "mnuaxc6xxix2",
+      "teamId": "mnyo517afnzw",
       "isStaff": true,
       "staffFunction": "Coach",
       "role": null
     },
     {
-      "id": "mnuaxc6xtjss",
+      "id": "mnyo517adujm",
       "no": null,
       "name": "Petra Eriksson",
-      "teamId": "mnuaxc6xxix2",
+      "teamId": "mnyo517afnzw",
       "isStaff": true,
       "staffFunction": "Assistant",
       "role": null
     },
     {
-      "id": "mnuaxc6x79aj",
+      "id": "mnyo517aui0a",
       "no": "1",
       "name": "Joël Loizeau",
-      "teamId": "mnuaxc6xl5vt",
+      "teamId": "mnyo517aivzp",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xqpeh",
+      "id": "mnyo517agzec",
       "no": "2",
       "name": "Nicolas Dumoux Fabre",
-      "teamId": "mnuaxc6xl5vt",
+      "teamId": "mnyo517aivzp",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xl7u1",
+      "id": "mnyo517ambwy",
       "no": "3",
       "name": "Maxime Launay",
-      "teamId": "mnuaxc6xl5vt",
+      "teamId": "mnyo517aivzp",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6x49pz",
+      "id": "mnyo517a0ofa",
       "no": "5",
       "name": "Frédéric Guyot",
-      "teamId": "mnuaxc6xl5vt",
+      "teamId": "mnyo517aivzp",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xj6xd",
+      "id": "mnyo517atyj6",
       "no": "7",
       "name": "Romain Thomas",
-      "teamId": "mnuaxc6xl5vt",
+      "teamId": "mnyo517aivzp",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6x260d",
+      "id": "mnyo517avbqs",
       "no": "9",
       "name": "Aymerik Boussion",
-      "teamId": "mnuaxc6xl5vt",
+      "teamId": "mnyo517aivzp",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xdf4d",
+      "id": "mnyo517ag5eb",
       "no": "10",
       "name": "Maxime Romanet",
-      "teamId": "mnuaxc6xl5vt",
+      "teamId": "mnyo517aivzp",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xrxo0",
+      "id": "mnyo517aa75r",
       "no": "27",
       "name": "Vincent de Lepeleire",
-      "teamId": "mnuaxc6xl5vt",
+      "teamId": "mnyo517aivzp",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xuy1k",
+      "id": "mnyo517akwv3",
       "no": "33",
       "name": "Sébastien Perez",
-      "teamId": "mnuaxc6xl5vt",
+      "teamId": "mnyo517aivzp",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xh1sn",
+      "id": "mnyo517aei1l",
       "no": "58",
       "name": "Camille Souillet",
-      "teamId": "mnuaxc6xl5vt",
+      "teamId": "mnyo517aivzp",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xhlfs",
+      "id": "mnyo517aketm",
       "no": "73",
       "name": "Frédéric Salomon",
-      "teamId": "mnuaxc6xl5vt",
+      "teamId": "mnyo517aivzp",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6xxa4u",
+      "id": "mnyo517a7gvj",
       "no": "84",
       "name": "Loïc Souillet",
-      "teamId": "mnuaxc6xl5vt",
+      "teamId": "mnyo517aivzp",
       "isStaff": false,
       "role": null,
       "staffFunction": null
     },
     {
-      "id": "mnuaxc6x1jsm",
+      "id": "mnyo517ade1a",
       "no": null,
       "name": "Guillaume Julien",
-      "teamId": "mnuaxc6xl5vt",
+      "teamId": "mnyo517aivzp",
       "isStaff": true,
       "staffFunction": "Staff",
       "role": null
     },
     {
-      "id": "mnuaxc6xzdgy",
+      "id": "mnyo517azdl5",
       "no": null,
       "name": "Denis Guiguet",
-      "teamId": "mnuaxc6xl5vt",
+      "teamId": "mnyo517aivzp",
       "isStaff": true,
       "staffFunction": "Staff",
       "role": null
     },
     {
-      "id": "mnuaxc6xj2ut",
+      "id": "mnyo517ayf91",
       "no": null,
       "name": "Sylvain Batardin",
-      "teamId": "mnuaxc6xl5vt",
+      "teamId": "mnyo517aivzp",
       "isStaff": true,
       "staffFunction": "Staff",
       "role": null
     },
     {
-      "id": "mnuaxc6xdhia",
+      "id": "mnyo517a4m20",
       "no": null,
       "name": "Julien Lefebvre",
-      "teamId": "mnuaxc6xl5vt",
+      "teamId": "mnyo517aivzp",
       "isStaff": true,
       "staffFunction": "Staff",
       "role": null
@@ -954,14 +972,14 @@
   ],
   "games": [
     {
-      "id": "mnuay7f788q6",
+      "id": "mnyo5tmhkub0",
       "no": 1,
       "date": "23.04.2026",
       "time": "08:30",
       "phase": "Vorrunde",
       "group": "A",
-      "homeTeamId": "mnuaxc6xitc2",
-      "awayTeamId": "mnuaxc6x14ei",
+      "homeTeamId": "mnyo517akiws",
+      "awayTeamId": "mnyo517aer6t",
       "homeLabel": null,
       "awayLabel": null,
       "goals": [],
@@ -969,14 +987,14 @@
       "finished": false
     },
     {
-      "id": "mnuay7f71a4n",
+      "id": "mnyo5tmhd3xl",
       "no": 2,
       "date": "23.04.2026",
       "time": "09:20",
       "phase": "Vorrunde",
       "group": "B",
-      "homeTeamId": "mnuaxc6xnwuo",
-      "awayTeamId": "mnuaxc6xxjuc",
+      "homeTeamId": "mnyo517ai732",
+      "awayTeamId": "mnyo517akq4v",
       "homeLabel": null,
       "awayLabel": null,
       "goals": [],
@@ -984,14 +1002,14 @@
       "finished": false
     },
     {
-      "id": "mnuay7f7m0f6",
+      "id": "mnyo5tmhke22",
       "no": 3,
       "date": "23.04.2026",
       "time": "10:10",
       "phase": "Vorrunde",
       "group": "A",
-      "homeTeamId": "mnuaxc6xp39p",
-      "awayTeamId": "mnuaxc6xtouy",
+      "homeTeamId": "mnyo517a35iy",
+      "awayTeamId": "mnyo5179sqxo",
       "homeLabel": null,
       "awayLabel": null,
       "goals": [],
@@ -999,14 +1017,14 @@
       "finished": false
     },
     {
-      "id": "mnuay7f7ex7z",
+      "id": "mnyo5tmhesub",
       "no": 4,
       "date": "23.04.2026",
       "time": "11:00",
       "phase": "Vorrunde",
       "group": "B",
-      "homeTeamId": "mnuaxc6xl5vt",
-      "awayTeamId": "mnuaxc6xxix2",
+      "homeTeamId": "mnyo517aivzp",
+      "awayTeamId": "mnyo517afnzw",
       "homeLabel": null,
       "awayLabel": null,
       "goals": [],
@@ -1014,14 +1032,14 @@
       "finished": false
     },
     {
-      "id": "mnuay7f718r6",
+      "id": "mnyo5tmh63gu",
       "no": 5,
       "date": "23.04.2026",
       "time": "13:00",
       "phase": "Vorrunde",
       "group": "A",
-      "homeTeamId": "mnuaxc6xtouy",
-      "awayTeamId": "mnuaxc6xitc2",
+      "homeTeamId": "mnyo5179sqxo",
+      "awayTeamId": "mnyo517akiws",
       "homeLabel": null,
       "awayLabel": null,
       "goals": [],
@@ -1029,14 +1047,14 @@
       "finished": false
     },
     {
-      "id": "mnuay7f79itt",
+      "id": "mnyo5tmhks1o",
       "no": 6,
       "date": "23.04.2026",
       "time": "13:50",
       "phase": "Vorrunde",
       "group": "B",
-      "homeTeamId": "mnuaxc6xxix2",
-      "awayTeamId": "mnuaxc6xnwuo",
+      "homeTeamId": "mnyo517afnzw",
+      "awayTeamId": "mnyo517ai732",
       "homeLabel": null,
       "awayLabel": null,
       "goals": [],
@@ -1044,14 +1062,14 @@
       "finished": false
     },
     {
-      "id": "mnuay7f7yhd1",
+      "id": "mnyo5tmhqe3a",
       "no": 7,
       "date": "23.04.2026",
       "time": "14:40",
       "phase": "Vorrunde",
       "group": "A",
-      "homeTeamId": "mnuaxc6x14ei",
-      "awayTeamId": "mnuaxc6xp39p",
+      "homeTeamId": "mnyo517aer6t",
+      "awayTeamId": "mnyo517a35iy",
       "homeLabel": null,
       "awayLabel": null,
       "goals": [],
@@ -1059,14 +1077,14 @@
       "finished": false
     },
     {
-      "id": "mnuay7f7nq8t",
+      "id": "mnyo5tmh731o",
       "no": 8,
       "date": "23.04.2026",
       "time": "15:30",
       "phase": "Vorrunde",
       "group": "B",
-      "homeTeamId": "mnuaxc6xxjuc",
-      "awayTeamId": "mnuaxc6xl5vt",
+      "homeTeamId": "mnyo517akq4v",
+      "awayTeamId": "mnyo517aivzp",
       "homeLabel": null,
       "awayLabel": null,
       "goals": [],
@@ -1074,14 +1092,14 @@
       "finished": false
     },
     {
-      "id": "mnuay7f7iovb",
+      "id": "mnyo5tmhelo0",
       "no": 9,
       "date": "23.04.2026",
       "time": "16:20",
       "phase": "Vorrunde",
       "group": "A",
-      "homeTeamId": "mnuaxc6xitc2",
-      "awayTeamId": "mnuaxc6xp39p",
+      "homeTeamId": "mnyo517akiws",
+      "awayTeamId": "mnyo517a35iy",
       "homeLabel": null,
       "awayLabel": null,
       "goals": [],
@@ -1089,14 +1107,14 @@
       "finished": false
     },
     {
-      "id": "mnuay7f7f7af",
+      "id": "mnyo5tmhasg9",
       "no": 10,
       "date": "23.04.2026",
       "time": "17:10",
       "phase": "Vorrunde",
       "group": "B",
-      "homeTeamId": "mnuaxc6xnwuo",
-      "awayTeamId": "mnuaxc6xl5vt",
+      "homeTeamId": "mnyo517ai732",
+      "awayTeamId": "mnyo517aivzp",
       "homeLabel": null,
       "awayLabel": null,
       "goals": [],
@@ -1104,14 +1122,14 @@
       "finished": false
     },
     {
-      "id": "mnuay7f7mc95",
+      "id": "mnyo5tmh1vz7",
       "no": 11,
       "date": "24.04.2026",
       "time": "08:30",
       "phase": "Vorrunde",
       "group": "A",
-      "homeTeamId": "mnuaxc6xtouy",
-      "awayTeamId": "mnuaxc6x14ei",
+      "homeTeamId": "mnyo5179sqxo",
+      "awayTeamId": "mnyo517aer6t",
       "homeLabel": null,
       "awayLabel": null,
       "goals": [],
@@ -1119,14 +1137,14 @@
       "finished": false
     },
     {
-      "id": "mnuay7f75ab0",
+      "id": "mnyo5tmh8br0",
       "no": 12,
       "date": "24.04.2026",
       "time": "09:20",
       "phase": "Vorrunde",
       "group": "B",
-      "homeTeamId": "mnuaxc6xxix2",
-      "awayTeamId": "mnuaxc6xxjuc",
+      "homeTeamId": "mnyo517afnzw",
+      "awayTeamId": "mnyo517akq4v",
       "homeLabel": null,
       "awayLabel": null,
       "goals": [],
@@ -1134,7 +1152,7 @@
       "finished": false
     },
     {
-      "id": "mnuay7f7v77v",
+      "id": "mnyo5tmhc7hl",
       "no": 13,
       "date": "24.04.2026",
       "time": "10:15",
@@ -1149,7 +1167,7 @@
       "finished": false
     },
     {
-      "id": "mnuay7f7v4z5",
+      "id": "mnyo5tmh1lla",
       "no": 14,
       "date": "24.04.2026",
       "time": "11:30",
@@ -1164,7 +1182,7 @@
       "finished": false
     },
     {
-      "id": "mnuay7f7q76j",
+      "id": "mnyo5tmhq82d",
       "no": 15,
       "date": "24.04.2026",
       "time": "13:30",
@@ -1179,7 +1197,7 @@
       "finished": false
     },
     {
-      "id": "mnuay7f7fap4",
+      "id": "mnyo5tmh2h6u",
       "no": 16,
       "date": "24.04.2026",
       "time": "14:45",
@@ -1194,7 +1212,7 @@
       "finished": false
     },
     {
-      "id": "mnuay7f7ewsk",
+      "id": "mnyo5tmhprqq",
       "no": 17,
       "date": "24.04.2026",
       "time": "16:00",
@@ -1209,7 +1227,7 @@
       "finished": false
     },
     {
-      "id": "mnuay7f74s47",
+      "id": "mnyo5tmh0gz3",
       "no": 18,
       "date": "24.04.2026",
       "time": "17:15",
@@ -1224,7 +1242,7 @@
       "finished": false
     },
     {
-      "id": "mnuay7f7fwh2",
+      "id": "mnyo5tmhrt3t",
       "no": 19,
       "date": "25.04.2026",
       "time": "08:30",
@@ -1239,7 +1257,7 @@
       "finished": false
     },
     {
-      "id": "mnuay7f7icfc",
+      "id": "mnyo5tmhac8m",
       "no": 20,
       "date": "25.04.2026",
       "time": "09:45",
@@ -1254,7 +1272,7 @@
       "finished": false
     },
     {
-      "id": "mnuay7f7y4ju",
+      "id": "mnyo5tmhvc90",
       "no": 21,
       "date": "25.04.2026",
       "time": "11:00",
@@ -1269,7 +1287,7 @@
       "finished": false
     },
     {
-      "id": "mnuay7f72amf",
+      "id": "mnyo5tmh9w6w",
       "no": 22,
       "date": "25.04.2026",
       "time": "13:00",
@@ -1284,7 +1302,7 @@
       "finished": false
     },
     {
-      "id": "mnuay7f7cei8",
+      "id": "mnyo5tmhd4ua",
       "no": 23,
       "date": "25.04.2026",
       "time": "14:15",
@@ -1299,7 +1317,7 @@
       "finished": false
     },
     {
-      "id": "mnuay7f7ah33",
+      "id": "mnyo5tmhv069",
       "no": 24,
       "date": "25.04.2026",
       "time": "15:30",
