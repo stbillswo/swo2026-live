@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-21T07:03:36.910Z",
+  "timestamp": "2026-04-21T08:37:52.536Z",
   "teams": [
     {
       "id": "mo87vvaxj9xt",
@@ -993,28 +993,18 @@
       "awayLabel": null,
       "goals": [
         {
-          "id": "mo89zgnj1tlx",
+          "id": "mo8dfh1y5es2",
           "period": 1,
-          "time": "1:22",
+          "time": "1:11",
           "teamId": "mo87vvay8fkx",
-          "scorerId": "mo87vvaykx5t",
-          "assistId": "mo87vvaypnpn",
+          "scorerId": "mo87vvaypnpn",
+          "assistId": "mo87vvaykx5t",
           "homeScore": 1,
           "awayScore": 0
         }
       ],
-      "penalties": [
-        {
-          "id": "mo89ztlhfi9r",
-          "period": 1,
-          "time": "2:22",
-          "teamId": "mo87vvaylgnp",
-          "playerId": "mo87vvayif7f",
-          "minutes": "2",
-          "code": "Slashing"
-        }
-      ],
-      "finished": true
+      "penalties": [],
+      "finished": false
     },
     {
       "id": "mo87wvn0kify",
@@ -1027,50 +1017,9 @@
       "awayTeamId": "mo87vvayg81x",
       "homeLabel": null,
       "awayLabel": null,
-      "goals": [
-        {
-          "id": "mo8a1cvyluvm",
-          "period": 1,
-          "time": "0:25",
-          "teamId": "mo87vvayqp89",
-          "scorerId": "mo87vvaykl5s",
-          "assistId": "mo87vvaylf70",
-          "homeScore": 1,
-          "awayScore": 0
-        },
-        {
-          "id": "mo8a1jz66xuk",
-          "period": 1,
-          "time": "2:54",
-          "teamId": "mo87vvayg81x",
-          "scorerId": "mo87vvaytg6o",
-          "assistId": "mo87vvayeqlq",
-          "homeScore": 1,
-          "awayScore": 1
-        },
-        {
-          "id": "mo8a27rn1a4c",
-          "period": 2,
-          "time": "6:44",
-          "teamId": "mo87vvayg81x",
-          "scorerId": "mo87vvayx492",
-          "assistId": "mo87vvay4cf5",
-          "homeScore": 1,
-          "awayScore": 2
-        }
-      ],
-      "penalties": [
-        {
-          "id": "mo8a1wtbiloe",
-          "period": 1,
-          "time": "4:52",
-          "teamId": "mo87vvayqp89",
-          "playerId": "mo87vvay52se",
-          "minutes": "2",
-          "code": "Roughing"
-        }
-      ],
-      "finished": true
+      "goals": [],
+      "penalties": [],
+      "finished": false
     },
     {
       "id": "mo87wvn08t96",
