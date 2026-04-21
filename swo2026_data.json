@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-21T09:33:31.675Z",
+  "timestamp": "2026-04-21T18:28:18.321Z",
   "teams": [
     {
       "id": "mo87vvaxj9xt",
@@ -111,7 +111,7 @@
       "name": "Benjamin Scheiwiller",
       "teamId": "mo87vvaxj9xt",
       "isStaff": false,
-      "role": "G",
+      "role": null,
       "staffFunction": null
     },
     {
@@ -120,7 +120,7 @@
       "name": "Stefano Costa",
       "teamId": "mo87vvaxj9xt",
       "isStaff": false,
-      "role": null,
+      "role": "G",
       "staffFunction": null
     },
     {
@@ -183,7 +183,7 @@
       "name": "Dan Hoolsema",
       "teamId": "mo87vvayxl5g",
       "isStaff": false,
-      "role": null,
+      "role": "G",
       "staffFunction": null
     },
     {
@@ -579,7 +579,7 @@
       "name": "Berri van Manen",
       "teamId": "mo87vvayg81x",
       "isStaff": false,
-      "role": null,
+      "role": "G",
       "staffFunction": null
     },
     {
@@ -597,7 +597,7 @@
       "name": "Stan Hoogendijk",
       "teamId": "mo87vvayg81x",
       "isStaff": false,
-      "role": "G",
+      "role": null,
       "staffFunction": null
     },
     {
