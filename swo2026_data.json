@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-23T13:10:51.312Z",
+  "timestamp": "2026-04-23T13:32:19.070Z",
   "teams": [
     {
       "id": "mo87vvaxj9xt",
@@ -1514,7 +1514,17 @@
       "homeLabel": null,
       "awayLabel": null,
       "goals": [],
-      "penalties": [],
+      "penalties": [
+        {
+          "id": "mobittyz26ka",
+          "period": 1,
+          "time": "02:48",
+          "teamId": "mo87vvaym89g",
+          "playerId": "mo87vvay17i1",
+          "minutes": "2",
+          "code": "Slashing"
+        }
+      ],
       "finished": false
     },
     {
