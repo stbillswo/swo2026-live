@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-23T14:06:52.445Z",
+  "timestamp": "2026-04-23T14:06:59.791Z",
   "teams": [
     {
       "id": "mo87vvaxj9xt",
@@ -1378,7 +1378,7 @@
         }
       ],
       "penalties": [],
-      "finished": false
+      "finished": true
     },
     {
       "id": "mo87wvn0i9yo",
