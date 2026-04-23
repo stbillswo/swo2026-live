@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-23T14:07:24.708Z",
+  "timestamp": "2026-04-23T14:07:32.373Z",
   "teams": [
     {
       "id": "mo87vvaxj9xt",
@@ -1100,7 +1100,7 @@
           "code": "Roughing"
         }
       ],
-      "finished": false
+      "finished": true
     },
     {
       "id": "mo87wvn08t96",
