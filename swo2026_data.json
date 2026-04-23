@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-23T08:37:30.477Z",
+  "timestamp": "2026-04-23T09:02:09.563Z",
   "teams": [
     {
       "id": "mo87vvaxj9xt",
@@ -746,7 +746,7 @@
     },
     {
       "id": "mo87vvayrddd",
-      "no": "7",
+      "no": "27",
       "name": "Alexander Brorsson",
       "teamId": "mo87vvayci06",
       "isStaff": false,
@@ -840,7 +840,7 @@
       "name": "Joël Loizeau",
       "teamId": "mo87vvaym89g",
       "isStaff": false,
-      "role": null,
+      "role": "G",
       "staffFunction": null
     },
     {
@@ -849,7 +849,7 @@
       "name": "Nicolas Dumoux Fabre",
       "teamId": "mo87vvaym89g",
       "isStaff": false,
-      "role": null,
+      "role": "G",
       "staffFunction": null
     },
     {
@@ -939,7 +939,7 @@
       "name": "Loïc Souillet",
       "teamId": "mo87vvaym89g",
       "isStaff": false,
-      "role": null,
+      "role": "C",
       "staffFunction": null
     },
     {
@@ -1179,7 +1179,18 @@
       "awayTeamId": "mo87vvayci06",
       "homeLabel": null,
       "awayLabel": null,
-      "goals": [],
+      "goals": [
+        {
+          "id": "mob96emx2pzp",
+          "period": 1,
+          "time": "01:05",
+          "teamId": "mo87vvayci06",
+          "scorerId": "mo87vvayrddd",
+          "assistId": "mo87vvaypmbv",
+          "homeScore": 0,
+          "awayScore": 1
+        }
+      ],
       "penalties": [],
       "finished": false
     },
