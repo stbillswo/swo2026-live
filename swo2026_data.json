@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-23T07:26:06.986Z",
+  "timestamp": "2026-04-23T07:37:16.085Z",
   "teams": [
     {
       "id": "mo87vvaxj9xt",
@@ -1079,7 +1079,17 @@
           "awayScore": 1
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "id": "mob658heeqjm",
+          "period": 1,
+          "time": "12:30",
+          "teamId": "mo87vvayqp89",
+          "playerId": "mo87vvayfhzv",
+          "minutes": "2",
+          "code": "Roughing"
+        }
+      ],
       "finished": false
     },
     {
