@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-21T18:28:18.321Z",
+  "timestamp": "2026-04-23T06:49:46.126Z",
   "teams": [
     {
       "id": "mo87vvaxj9xt",
@@ -198,7 +198,7 @@
     {
       "id": "mo87vvaygt5r",
       "no": "7",
-      "name": "Mitchell Vaske",
+      "name": "James Schafer",
       "teamId": "mo87vvayxl5g",
       "isStaff": false,
       "role": null,
@@ -291,7 +291,7 @@
       "name": "Brecht Vancauwnberghe",
       "teamId": "mo87vvayqp89",
       "isStaff": false,
-      "role": null,
+      "role": "C/G",
       "staffFunction": null
     },
     {
@@ -516,7 +516,7 @@
       "name": "Nienke Conijn",
       "teamId": "mo87vvayg81x",
       "isStaff": false,
-      "role": "C/G",
+      "role": "G",
       "staffFunction": null
     },
     {
@@ -534,7 +534,7 @@
       "name": "Nick van Kuijk",
       "teamId": "mo87vvayg81x",
       "isStaff": false,
-      "role": null,
+      "role": "C",
       "staffFunction": null
     },
     {
@@ -642,7 +642,7 @@
       "name": "Kyle Gieni",
       "teamId": "mo87vvay8fkx",
       "isStaff": false,
-      "role": "C",
+      "role": "G",
       "staffFunction": null
     },
     {
@@ -651,7 +651,7 @@
       "name": "Peggy Assinck",
       "teamId": "mo87vvay8fkx",
       "isStaff": false,
-      "role": null,
+      "role": "C",
       "staffFunction": null
     },
     {
@@ -991,7 +991,18 @@
       "awayTeamId": "mo87vvaylgnp",
       "homeLabel": null,
       "awayLabel": null,
-      "goals": [],
+      "goals": [
+        {
+          "id": "mob4g5fuxo8y",
+          "period": 1,
+          "time": "13:44",
+          "teamId": "mo87vvaylgnp",
+          "scorerId": "mo87vvayn8gs",
+          "assistId": "mo87vvayuh2n",
+          "homeScore": 0,
+          "awayScore": 1
+        }
+      ],
       "penalties": [],
       "finished": false
     },
