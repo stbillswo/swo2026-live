@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-23T14:53:28.305Z",
+  "timestamp": "2026-04-23T14:58:46.234Z",
   "teams": [
     {
       "id": "mo87vvaxj9xt",
@@ -1621,7 +1621,7 @@
           "code": "Too Many Players"
         }
       ],
-      "finished": false
+      "finished": true
     },
     {
       "id": "mo87wvn0jzq7",
