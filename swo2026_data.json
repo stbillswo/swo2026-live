@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-23T07:05:56.270Z",
+  "timestamp": "2026-04-23T07:10:42.209Z",
   "teams": [
     {
       "id": "mo87vvaxj9xt",
@@ -1023,16 +1023,6 @@
           "awayScore": 3
         },
         {
-          "id": "mob50y0bw56f",
-          "period": 1,
-          "time": "21:43",
-          "teamId": "mo87vvaylgnp",
-          "scorerId": "mo87vvay0wkq",
-          "assistId": "mo87vvay4ypr",
-          "homeScore": 0,
-          "awayScore": 4
-        },
-        {
           "id": "mob4v0zt7p90",
           "period": 2,
           "time": "18:39",
@@ -1040,7 +1030,27 @@
           "scorerId": "mo87vvayhw2a",
           "assistId": "mo87vvayuusy",
           "homeScore": 0,
+          "awayScore": 4
+        },
+        {
+          "id": "mob50y0bw56f",
+          "period": 2,
+          "time": "21:43",
+          "teamId": "mo87vvaylgnp",
+          "scorerId": "mo87vvay0wkq",
+          "assistId": "mo87vvay4ypr",
+          "homeScore": 0,
           "awayScore": 5
+        },
+        {
+          "id": "mob572n333fv",
+          "period": 2,
+          "time": "25:49",
+          "teamId": "mo87vvaylgnp",
+          "scorerId": "mo87vvayhw2a",
+          "assistId": "mo87vvayecj5",
+          "homeScore": 0,
+          "awayScore": 6
         }
       ],
       "penalties": [],
