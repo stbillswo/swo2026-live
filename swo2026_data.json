@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-24T08:03:32.335Z",
+  "timestamp": "2026-04-24T08:05:00.702Z",
   "teams": [
     {
       "id": "mo87vvaxj9xt",
@@ -1846,7 +1846,7 @@
           "code": "Slashing"
         }
       ],
-      "finished": false
+      "finished": true
     },
     {
       "id": "mo87wvn0tj7p",
@@ -1855,10 +1855,10 @@
       "time": "10:15",
       "phase": "Playoffs",
       "group": null,
-      "homeTeamId": null,
-      "awayTeamId": null,
-      "homeLabel": "1. Gruppe A",
-      "awayLabel": "4. Gruppe B",
+      "homeTeamId": "mo87vvaylgnp",
+      "awayTeamId": "mo87vvaym89g",
+      "homeLabel": null,
+      "awayLabel": null,
       "goals": [],
       "penalties": [],
       "finished": false
@@ -1870,10 +1870,10 @@
       "time": "11:30",
       "phase": "Playoffs",
       "group": null,
-      "homeTeamId": null,
-      "awayTeamId": null,
-      "homeLabel": "2. Gruppe A",
-      "awayLabel": "3. Gruppe B",
+      "homeTeamId": "mo87vvaxj9xt",
+      "awayTeamId": "mo87vvayqp89",
+      "homeLabel": null,
+      "awayLabel": null,
       "goals": [],
       "penalties": [],
       "finished": false
@@ -1885,10 +1885,10 @@
       "time": "13:30",
       "phase": "Playoffs",
       "group": null,
-      "homeTeamId": null,
-      "awayTeamId": null,
-      "homeLabel": "2. Gruppe B",
-      "awayLabel": "3. Gruppe A",
+      "homeTeamId": "mo87vvayci06",
+      "awayTeamId": "mo87vvayxl5g",
+      "homeLabel": null,
+      "awayLabel": null,
       "goals": [],
       "penalties": [],
       "finished": false
@@ -1900,10 +1900,10 @@
       "time": "14:45",
       "phase": "Playoffs",
       "group": null,
-      "homeTeamId": null,
-      "awayTeamId": null,
-      "homeLabel": "1. Gruppe B",
-      "awayLabel": "4. Gruppe A",
+      "homeTeamId": "mo87vvayg81x",
+      "awayTeamId": "mo87vvay8fkx",
+      "homeLabel": null,
+      "awayLabel": null,
       "goals": [],
       "penalties": [],
       "finished": false
