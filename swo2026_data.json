@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-24T13:11:50.137Z",
+  "timestamp": "2026-04-24T13:15:12.693Z",
   "teams": [
     {
       "id": "mo87vvaxj9xt",
@@ -2236,6 +2236,15 @@
           "time": "13:55",
           "teamId": "mo87vvay8fkx",
           "playerId": "mo87vvay2hoj",
+          "minutes": "2",
+          "code": "High Stick"
+        },
+        {
+          "id": "mocxnooiun8n",
+          "period": 2,
+          "time": "4:49",
+          "teamId": "mo87vvay8fkx",
+          "playerId": "mo87vvayor2c",
           "minutes": "2",
           "code": "High Stick"
         }
