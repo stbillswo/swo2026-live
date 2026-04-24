@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-24T16:19:26.315Z",
+  "timestamp": "2026-04-24T16:21:33.227Z",
   "teams": [
     {
       "id": "mo87vvaxj9xt",
@@ -2536,7 +2536,7 @@
           "code": "Pushing / Charging"
         }
       ],
-      "finished": false
+      "finished": true
     },
     {
       "id": "mo87wvn01oy2",
@@ -2575,10 +2575,10 @@
       "time": "11:00",
       "phase": "Playoffs",
       "group": null,
-      "homeTeamId": null,
-      "awayTeamId": null,
-      "homeLabel": "Verlierer 3. HF",
-      "awayLabel": "Verlierer 4. HF",
+      "homeTeamId": "mo87vvay8fkx",
+      "awayTeamId": "mo87vvaym89g",
+      "homeLabel": null,
+      "awayLabel": null,
       "goals": [],
       "penalties": [],
       "finished": false
@@ -2590,10 +2590,10 @@
       "time": "13:00",
       "phase": "Playoffs",
       "group": null,
-      "homeTeamId": null,
-      "awayTeamId": null,
-      "homeLabel": "Gewinner 3. HF",
-      "awayLabel": "Gewinner 4. HF",
+      "homeTeamId": "mo87vvayqp89",
+      "awayTeamId": "mo87vvayxl5g",
+      "homeLabel": null,
+      "awayLabel": null,
       "goals": [],
       "penalties": [],
       "finished": false
