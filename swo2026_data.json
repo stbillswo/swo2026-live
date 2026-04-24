@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-24T15:20:06.810Z",
+  "timestamp": "2026-04-24T15:21:08.942Z",
   "teams": [
     {
       "id": "mo87vvaxj9xt",
@@ -2427,7 +2427,17 @@
           "awayScore": 1
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "id": "mod25n4b8uxe",
+          "period": 1,
+          "time": "1:53",
+          "teamId": "mo87vvayqp89",
+          "playerId": "mo87vvaykl5s",
+          "minutes": "2",
+          "code": "Pushing / Charging"
+        }
+      ],
       "finished": false
     },
     {
