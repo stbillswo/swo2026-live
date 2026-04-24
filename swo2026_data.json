@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-24T07:08:03.283Z",
+  "timestamp": "2026-04-24T07:11:29.536Z",
   "teams": [
     {
       "id": "mo87vvaxj9xt",
@@ -1743,7 +1743,7 @@
           "code": "Pushing / Charging"
         }
       ],
-      "finished": true
+      "finished": false
     },
     {
       "id": "mo87wvn0lk7b",
