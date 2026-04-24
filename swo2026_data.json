@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-24T13:18:05.880Z",
+  "timestamp": "2026-04-24T13:21:29.052Z",
   "teams": [
     {
       "id": "mo87vvaxj9xt",
@@ -2199,13 +2199,23 @@
       "awayLabel": null,
       "goals": [
         {
+          "id": "mocxvr2xtwkd",
+          "period": 1,
+          "time": "08:34",
+          "teamId": "mo87vvayg81x",
+          "scorerId": "mo87vvay5be7",
+          "assistId": "mo87vvayvisw",
+          "homeScore": 1,
+          "awayScore": 0
+        },
+        {
           "id": "mocx0exr09pr",
           "period": 1,
           "time": "09:56",
           "teamId": "mo87vvayg81x",
           "scorerId": "mo87vvayx492",
           "assistId": null,
-          "homeScore": 1,
+          "homeScore": 2,
           "awayScore": 0
         },
         {
@@ -2215,7 +2225,7 @@
           "teamId": "mo87vvayg81x",
           "scorerId": "mo87vvayzw0g",
           "assistId": "mo87vvayvisw",
-          "homeScore": 2,
+          "homeScore": 3,
           "awayScore": 0
         },
         {
@@ -2225,7 +2235,7 @@
           "teamId": "mo87vvayg81x",
           "scorerId": "mo87vvay4cf5",
           "assistId": "mo87vvay5be7",
-          "homeScore": 3,
+          "homeScore": 4,
           "awayScore": 0
         },
         {
@@ -2235,7 +2245,7 @@
           "teamId": "mo87vvayg81x",
           "scorerId": "mo87vvayvisw",
           "assistId": "mo87vvayx492",
-          "homeScore": 4,
+          "homeScore": 5,
           "awayScore": 0
         }
       ],
