@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-24T15:34:26.141Z",
+  "timestamp": "2026-04-24T15:45:39.778Z",
   "teams": [
     {
       "id": "mo87vvaxj9xt",
@@ -2445,6 +2445,16 @@
           "assistId": "mo87vvay52se",
           "homeScore": 0,
           "awayScore": 3
+        },
+        {
+          "id": "mod3160xu6yk",
+          "period": 2,
+          "time": "03:55",
+          "teamId": "mo87vvayqp89",
+          "scorerId": "mo87vvaylf70",
+          "assistId": "mo87vvayfhzv",
+          "homeScore": 0,
+          "awayScore": 4
         }
       ],
       "penalties": [
@@ -2464,7 +2474,7 @@
           "teamId": "mo87vvayqp89",
           "playerId": "mo87vvayunfu",
           "minutes": "2",
-          "code": "High Stick"
+          "code": "Pushing / Charging"
         }
       ],
       "finished": false
