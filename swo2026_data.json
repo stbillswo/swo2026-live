@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-24T10:05:43.308Z",
+  "timestamp": "2026-04-24T10:20:01.904Z",
   "teams": [
     {
       "id": "mo87vvaxj9xt",
@@ -2004,6 +2004,16 @@
           "scorerId": "mo87vvay52se",
           "assistId": "mo87vvayfhzv",
           "homeScore": 3,
+          "awayScore": 3
+        },
+        {
+          "id": "mocreei5ok3q",
+          "period": 3,
+          "time": "07:38",
+          "teamId": "mo87vvaxj9xt",
+          "scorerId": "mo87vvaxqa2z",
+          "assistId": "mo87vvayxfnw",
+          "homeScore": 4,
           "awayScore": 3
         }
       ],
