@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-24T13:44:33.624Z",
+  "timestamp": "2026-04-24T13:54:42.320Z",
   "teams": [
     {
       "id": "mo87vvaxj9xt",
@@ -2326,7 +2326,7 @@
           "code": "Roughing"
         }
       ],
-      "finished": false
+      "finished": true
     },
     {
       "id": "mo87wvn03ua6",
@@ -2350,10 +2350,10 @@
       "time": "17:15",
       "phase": "Playoffs",
       "group": null,
-      "homeTeamId": null,
-      "awayTeamId": null,
-      "homeLabel": "Verlierer 1. VF",
-      "awayLabel": "Verlierer 3. VF",
+      "homeTeamId": "mo87vvay8fkx",
+      "awayTeamId": "mo87vvayqp89",
+      "homeLabel": null,
+      "awayLabel": null,
       "goals": [],
       "penalties": [],
       "finished": false
@@ -2380,10 +2380,10 @@
       "time": "09:45",
       "phase": "Playoffs",
       "group": null,
-      "homeTeamId": null,
-      "awayTeamId": null,
-      "homeLabel": "Gewinner 1. VF",
-      "awayLabel": "Gewinner 3. VF",
+      "homeTeamId": "mo87vvayg81x",
+      "awayTeamId": "mo87vvaxj9xt",
+      "homeLabel": null,
+      "awayLabel": null,
       "goals": [],
       "penalties": [],
       "finished": false
