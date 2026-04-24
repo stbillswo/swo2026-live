@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-24T12:20:50.758Z",
+  "timestamp": "2026-04-24T12:26:52.327Z",
   "teams": [
     {
       "id": "mo87vvaxj9xt",
@@ -2184,7 +2184,7 @@
         }
       ],
       "penalties": [],
-      "finished": false
+      "finished": true
     },
     {
       "id": "mo87wvn0j99l",
@@ -2208,10 +2208,10 @@
       "time": "16:00",
       "phase": "Playoffs",
       "group": null,
-      "homeTeamId": null,
-      "awayTeamId": null,
-      "homeLabel": "Verlierer 2. VF",
-      "awayLabel": "Verlierer 4. VF",
+      "homeTeamId": "mo87vvayxl5g",
+      "awayTeamId": "mo87vvaym89g",
+      "homeLabel": null,
+      "awayLabel": null,
       "goals": [],
       "penalties": [],
       "finished": false
@@ -2238,10 +2238,10 @@
       "time": "08:30",
       "phase": "Playoffs",
       "group": null,
-      "homeTeamId": null,
-      "awayTeamId": null,
-      "homeLabel": "Gewinner 2. VF",
-      "awayLabel": "Gewinner 4. VF",
+      "homeTeamId": "mo87vvayci06",
+      "awayTeamId": "mo87vvaylgnp",
+      "homeLabel": null,
+      "awayLabel": null,
       "goals": [],
       "penalties": [],
       "finished": false
