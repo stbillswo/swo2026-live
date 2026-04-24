@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-24T15:27:16.839Z",
+  "timestamp": "2026-04-24T15:34:26.141Z",
   "teams": [
     {
       "id": "mo87vvaxj9xt",
@@ -2456,6 +2456,15 @@
           "playerId": "mo87vvaykl5s",
           "minutes": "2",
           "code": "Pushing / Charging"
+        },
+        {
+          "id": "mod2mq8ppwo5",
+          "period": 1,
+          "time": "12:28",
+          "teamId": "mo87vvayqp89",
+          "playerId": "mo87vvayunfu",
+          "minutes": "2",
+          "code": "High Stick"
         }
       ],
       "finished": false
