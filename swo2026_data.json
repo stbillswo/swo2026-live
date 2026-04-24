@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-24T07:46:58.542Z",
+  "timestamp": "2026-04-24T07:52:00.963Z",
   "teams": [
     {
       "id": "mo87vvaxj9xt",
@@ -1815,6 +1815,15 @@
           "playerId": "mo87vvaypmbv",
           "minutes": "2",
           "code": "Blocking"
+        },
+        {
+          "id": "mocm41xbiqws",
+          "period": 2,
+          "time": "21:35",
+          "teamId": "mo87vvayg81x",
+          "playerId": "mo87vvay4cf5",
+          "minutes": "2",
+          "code": "Slashing"
         }
       ],
       "finished": false
