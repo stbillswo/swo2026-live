@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-25T08:46:07.334Z",
+  "timestamp": "2026-04-25T08:59:55.129Z",
   "teams": [
     {
       "id": "mo87vvaxj9xt",
@@ -660,7 +660,7 @@
       "name": "Shaun Mills",
       "teamId": "mo87vvay8fkx",
       "isStaff": false,
-      "role": null,
+      "role": "G",
       "staffFunction": null
     },
     {
@@ -2729,7 +2729,18 @@
       "awayTeamId": "mo87vvaym89g",
       "homeLabel": null,
       "awayLabel": null,
-      "goals": [],
+      "goals": [
+        {
+          "id": "moe3z88lwr6a",
+          "period": 1,
+          "time": "0:27",
+          "teamId": "mo87vvay8fkx",
+          "scorerId": "mo87vvay2hoj",
+          "assistId": "mo87vvayrd3a",
+          "homeScore": 1,
+          "awayScore": 0
+        }
+      ],
       "penalties": [],
       "finished": false
     },
