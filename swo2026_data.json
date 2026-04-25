@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-25T07:30:38.863Z",
+  "timestamp": "2026-04-25T07:30:58.686Z",
   "teams": [
     {
       "id": "mo87vvaxj9xt",
@@ -2611,7 +2611,7 @@
           "code": "Blocking"
         }
       ],
-      "finished": false
+      "finished": true
     },
     {
       "id": "mo87wvn0f8xh",
