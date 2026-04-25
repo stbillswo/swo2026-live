@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-25T07:59:13.935Z",
+  "timestamp": "2026-04-25T08:05:47.101Z",
   "teams": [
     {
       "id": "mo87vvaxj9xt",
@@ -2655,6 +2655,15 @@
           "playerId": "mo87vvayqjdl",
           "minutes": "2",
           "code": "Delay of Game"
+        },
+        {
+          "id": "moe21m1oz123",
+          "period": 2,
+          "time": "1:12",
+          "teamId": "mo87vvayg81x",
+          "playerId": "mo87vvaytg6o",
+          "minutes": "2",
+          "code": "Slashing"
         }
       ],
       "finished": false
