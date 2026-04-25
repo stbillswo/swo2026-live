@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-25T11:26:29.468Z",
+  "timestamp": "2026-04-25T11:54:29.453Z",
   "teams": [
     {
       "id": "mo87vvaxj9xt",
@@ -2888,7 +2888,7 @@
           "code": "Handling the Ball"
         }
       ],
-      "finished": false
+      "finished": true
     },
     {
       "id": "mo87wvn0vv5k",
