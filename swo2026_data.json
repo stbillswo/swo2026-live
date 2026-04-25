@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-25T07:47:17.730Z",
+  "timestamp": "2026-04-25T07:53:57.606Z",
   "teams": [
     {
       "id": "mo87vvaxj9xt",
@@ -2636,7 +2636,17 @@
           "awayScore": 0
         }
       ],
-      "penalties": [],
+      "penalties": [
+        {
+          "id": "moe1melgoxkj",
+          "period": 1,
+          "time": "8:29",
+          "teamId": "mo87vvayg81x",
+          "playerId": "mo87vvayqjdl",
+          "minutes": "2",
+          "code": "Delay of Game"
+        }
+      ],
       "finished": false
     },
     {
