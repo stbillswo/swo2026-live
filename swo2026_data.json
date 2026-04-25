@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-25T10:01:58.578Z",
+  "timestamp": "2026-04-25T11:25:17.624Z",
   "teams": [
     {
       "id": "mo87vvaxj9xt",
@@ -2866,7 +2866,17 @@
       "homeLabel": null,
       "awayLabel": null,
       "goals": [],
-      "penalties": [],
+      "penalties": [
+        {
+          "id": "moe966k841vz",
+          "period": 2,
+          "time": "06:26",
+          "teamId": "mo87vvayxl5g",
+          "playerId": "mo87vvayb2s9",
+          "minutes": "2",
+          "code": "Handling the Ball"
+        }
+      ],
       "finished": false
     },
     {
